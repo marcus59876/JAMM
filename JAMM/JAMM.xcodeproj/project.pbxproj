@@ -13,6 +13,7 @@
 		F53C48A5209D709E0074F24A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F53C48A4209D709E0074F24A /* Assets.xcassets */; };
 		F53C48A8209D709E0074F24A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F53C48A6209D709E0074F24A /* LaunchScreen.storyboard */; };
 		F53C48B0209D74E20074F24A /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53C48AF209D74E20074F24A /* UIButtonExtension.swift */; };
+		F53C48B2209D7DED0074F24A /* Equipment_lvl_1_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53C48B1209D7DED0074F24A /* Equipment_lvl_1_ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F53C48A7209D709E0074F24A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F53C48A9209D709E0074F24A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F53C48AF209D74E20074F24A /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+		F53C48B1209D7DED0074F24A /* Equipment_lvl_1_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Equipment_lvl_1_ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				F53C489D209D709A0074F24A /* AppDelegate.swift */,
 				F53C48AF209D74E20074F24A /* UIButtonExtension.swift */,
+				F53C48B1209D7DED0074F24A /* Equipment_lvl_1_ViewController.swift */,
 				F53C489F209D709A0074F24A /* HomePageViewController.swift */,
 				F53C48A1209D709A0074F24A /* Main.storyboard */,
 				F53C48A4209D709E0074F24A /* Assets.xcassets */,
@@ -140,6 +143,7 @@
 			files = (
 				F53C48A0209D709A0074F24A /* HomePageViewController.swift in Sources */,
 				F53C489E209D709A0074F24A /* AppDelegate.swift in Sources */,
+				F53C48B2209D7DED0074F24A /* Equipment_lvl_1_ViewController.swift in Sources */,
 				F53C48B0209D74E20074F24A /* UIButtonExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

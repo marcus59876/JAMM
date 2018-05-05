@@ -37,6 +37,7 @@
                                 </state>
                                 <connections>
                                     <action selector="EquipmentButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DDs-nW-j7f"/>
+                                    <segue destination="GCg-zx-NUx" kind="show" id="4RH-Zb-o0g"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X9a-Le-c2z">
@@ -87,6 +88,9 @@
                                         <state key="normal" title="Equipment">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="GCg-zx-NUx" kind="show" id="RNm-MZ-Clp"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yjw-BP-yx3">
                                         <rect key="frame" x="0.0" y="233" width="301" height="45"/>
@@ -210,6 +214,166 @@
             </objects>
             <point key="canvasLocation" x="1076" y="133.5832083958021"/>
         </scene>
+        <!--Equipment-->
+        <scene sceneID="nXv-vy-R2x">
+            <objects>
+                <viewController id="GCg-zx-NUx" customClass="Equipment_lvl_1_ViewController" customModule="JAMM" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="G7n-VN-J1t">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="omd-Rq-Brw">
+                                <rect key="frame" x="0.0" y="64" width="375" height="936"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bEr-Ay-Rr0">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sR5-Im-ZRt">
+                                                <rect key="frame" x="63" y="60.5" width="249" height="60"/>
+                                                <color key="backgroundColor" red="0.50588235290000005" green="0.78039215689999997" blue="0.51764705879999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="a8n-Y7-uBv"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                                <state key="normal" title="ASSAULT RIFLES">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sk7-CS-kfh">
+                                                <rect key="frame" x="63" y="181" width="249" height="60"/>
+                                                <color key="backgroundColor" red="0.50588235290000005" green="0.78039215689999997" blue="0.51764705879999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="xqS-Gi-PWE"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                                <state key="normal" title="SHOTGUNS">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Bd-B8-cRZ">
+                                                <rect key="frame" x="63" y="301.5" width="249" height="60"/>
+                                                <color key="backgroundColor" red="0.50588235290000005" green="0.78039215689999997" blue="0.51764705879999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="Hyu-kS-RzM"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                                <state key="normal" title="SNIPERS">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pba-4m-eVD">
+                                                <rect key="frame" x="63" y="542.5" width="249" height="60"/>
+                                                <color key="backgroundColor" red="0.50588235290000005" green="0.78039215689999997" blue="0.51764705879999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="WPU-8L-gez"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                                <state key="normal" title="MACHINE GUNS">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ffc-4I-SWb">
+                                                <rect key="frame" x="63" y="422" width="249" height="60"/>
+                                                <color key="backgroundColor" red="0.50588235290000005" green="0.78039215689999997" blue="0.51764705879999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="Aw1-H9-xNY"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                                <state key="normal" title="SMGS">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y9Q-W4-3Rt">
+                                                <rect key="frame" x="63" y="783.5" width="249" height="60"/>
+                                                <color key="backgroundColor" red="0.50588235290000005" green="0.78039215689999997" blue="0.51764705879999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="nOM-Vg-HKF"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                                <state key="normal" title="EXPLOSIVES">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rNc-l5-cKO">
+                                                <rect key="frame" x="63" y="663" width="249" height="60"/>
+                                                <color key="backgroundColor" red="0.50588235290000005" green="0.78039215689999997" blue="0.51764705879999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="ENe-Mm-sWe"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                                <state key="normal" title="PISTOLS">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.88235294119999996" green="0.74509803919999995" blue="0.90588235289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="4Bd-B8-cRZ" firstAttribute="top" secondItem="sk7-CS-kfh" secondAttribute="bottom" constant="60.5" id="6mG-mg-ew4"/>
+                                            <constraint firstItem="pba-4m-eVD" firstAttribute="leading" secondItem="bEr-Ay-Rr0" secondAttribute="leading" constant="63" id="8pq-lD-xeL"/>
+                                            <constraint firstAttribute="trailing" secondItem="Ffc-4I-SWb" secondAttribute="trailing" constant="63" id="ADT-Cv-n9Z"/>
+                                            <constraint firstItem="sR5-Im-ZRt" firstAttribute="top" secondItem="bEr-Ay-Rr0" secondAttribute="top" constant="60.5" id="Bt5-Gp-TXb"/>
+                                            <constraint firstItem="Ffc-4I-SWb" firstAttribute="centerX" secondItem="bEr-Ay-Rr0" secondAttribute="centerX" id="C83-p1-mPi"/>
+                                            <constraint firstItem="y9Q-W4-3Rt" firstAttribute="centerX" secondItem="bEr-Ay-Rr0" secondAttribute="centerX" id="CfV-gP-E6X"/>
+                                            <constraint firstItem="y9Q-W4-3Rt" firstAttribute="top" secondItem="rNc-l5-cKO" secondAttribute="bottom" constant="60.5" id="DJ1-fz-WT5"/>
+                                            <constraint firstAttribute="trailing" secondItem="4Bd-B8-cRZ" secondAttribute="trailing" constant="63" id="Dau-5N-bU7"/>
+                                            <constraint firstItem="Ffc-4I-SWb" firstAttribute="top" secondItem="4Bd-B8-cRZ" secondAttribute="bottom" constant="60.5" id="EwJ-AI-Hiv"/>
+                                            <constraint firstAttribute="height" constant="1000" id="J7c-db-hdW"/>
+                                            <constraint firstItem="pba-4m-eVD" firstAttribute="centerX" secondItem="bEr-Ay-Rr0" secondAttribute="centerX" id="JDV-3X-KSr"/>
+                                            <constraint firstItem="rNc-l5-cKO" firstAttribute="top" secondItem="pba-4m-eVD" secondAttribute="bottom" constant="60.5" id="MPd-fo-dfj"/>
+                                            <constraint firstItem="4Bd-B8-cRZ" firstAttribute="leading" secondItem="bEr-Ay-Rr0" secondAttribute="leading" constant="63" id="MVY-xz-xRh"/>
+                                            <constraint firstItem="rNc-l5-cKO" firstAttribute="leading" secondItem="bEr-Ay-Rr0" secondAttribute="leading" constant="63" id="Nru-Qj-6Fl"/>
+                                            <constraint firstAttribute="trailing" secondItem="sk7-CS-kfh" secondAttribute="trailing" constant="63" id="QPB-8K-E4F"/>
+                                            <constraint firstAttribute="trailing" secondItem="rNc-l5-cKO" secondAttribute="trailing" constant="63" id="Snx-UM-Ov5"/>
+                                            <constraint firstAttribute="trailing" secondItem="pba-4m-eVD" secondAttribute="trailing" constant="63" id="TLC-xE-CdW"/>
+                                            <constraint firstItem="rNc-l5-cKO" firstAttribute="centerX" secondItem="bEr-Ay-Rr0" secondAttribute="centerX" id="VCv-UZ-mCG"/>
+                                            <constraint firstItem="sk7-CS-kfh" firstAttribute="top" secondItem="sR5-Im-ZRt" secondAttribute="bottom" constant="60.5" id="duS-Ov-Vf3"/>
+                                            <constraint firstAttribute="trailing" secondItem="y9Q-W4-3Rt" secondAttribute="trailing" constant="63" id="f0Q-8K-6En"/>
+                                            <constraint firstItem="sR5-Im-ZRt" firstAttribute="centerX" secondItem="bEr-Ay-Rr0" secondAttribute="centerX" id="fpg-yU-3yE"/>
+                                            <constraint firstItem="sk7-CS-kfh" firstAttribute="leading" secondItem="bEr-Ay-Rr0" secondAttribute="leading" constant="63" id="jJI-PV-G7a"/>
+                                            <constraint firstItem="Ffc-4I-SWb" firstAttribute="leading" secondItem="bEr-Ay-Rr0" secondAttribute="leading" constant="63" id="oSY-Gd-BSb"/>
+                                            <constraint firstItem="y9Q-W4-3Rt" firstAttribute="leading" secondItem="bEr-Ay-Rr0" secondAttribute="leading" constant="63" id="ssi-PM-3zl"/>
+                                            <constraint firstAttribute="trailing" secondItem="sR5-Im-ZRt" secondAttribute="trailing" constant="63" id="wkk-VM-org"/>
+                                            <constraint firstItem="sR5-Im-ZRt" firstAttribute="leading" secondItem="bEr-Ay-Rr0" secondAttribute="leading" constant="63" id="xCu-gG-ysa"/>
+                                            <constraint firstItem="sk7-CS-kfh" firstAttribute="centerX" secondItem="bEr-Ay-Rr0" secondAttribute="centerX" id="xq8-oE-Rle"/>
+                                            <constraint firstItem="pba-4m-eVD" firstAttribute="top" secondItem="Ffc-4I-SWb" secondAttribute="bottom" constant="60.5" id="yrN-4v-sE3"/>
+                                            <constraint firstItem="4Bd-B8-cRZ" firstAttribute="centerX" secondItem="bEr-Ay-Rr0" secondAttribute="centerX" id="yrY-Zh-Ajo"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="bEr-Ay-Rr0" firstAttribute="leading" secondItem="omd-Rq-Brw" secondAttribute="leading" id="04a-vI-xFW"/>
+                                    <constraint firstAttribute="trailing" secondItem="bEr-Ay-Rr0" secondAttribute="trailing" id="WHY-wN-ohQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="bEr-Ay-Rr0" secondAttribute="bottom" id="myZ-WQ-TCi"/>
+                                    <constraint firstItem="bEr-Ay-Rr0" firstAttribute="top" secondItem="omd-Rq-Brw" secondAttribute="top" id="tTM-w1-pZw"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Tem-gA-N3t" firstAttribute="bottom" secondItem="omd-Rq-Brw" secondAttribute="bottom" id="E4d-fz-rPh"/>
+                            <constraint firstItem="omd-Rq-Brw" firstAttribute="top" secondItem="Tem-gA-N3t" secondAttribute="top" id="TvL-hW-Ach"/>
+                            <constraint firstItem="omd-Rq-Brw" firstAttribute="leading" secondItem="Tem-gA-N3t" secondAttribute="leading" id="XIc-7G-Z5T"/>
+                            <constraint firstItem="bEr-Ay-Rr0" firstAttribute="width" secondItem="G7n-VN-J1t" secondAttribute="width" id="doC-7T-AYQ"/>
+                            <constraint firstItem="Tem-gA-N3t" firstAttribute="trailing" secondItem="omd-Rq-Brw" secondAttribute="trailing" id="yuy-rw-o2L"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Tem-gA-N3t"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Equipment" id="gbZ-sh-ooY"/>
+                    <size key="freeformSize" width="375" height="1000"/>
+                    <connections>
+                        <outlet property="AssaultRifleButton" destination="sR5-Im-ZRt" id="vff-cM-snW"/>
+                        <outlet property="ExplosiveButton" destination="y9Q-W4-3Rt" id="ukD-ke-3wZ"/>
+                        <outlet property="MachineGunButton" destination="pba-4m-eVD" id="HVY-PV-1FA"/>
+                        <outlet property="PistolButton" destination="rNc-l5-cKO" id="yup-yJ-1XV"/>
+                        <outlet property="ShotgunButton" destination="sk7-CS-kfh" id="Mn6-O5-OEQ"/>
+                        <outlet property="SmgButton" destination="Ffc-4I-SWb" id="BDd-OC-fBe"/>
+                        <outlet property="SniperButton" destination="4Bd-B8-cRZ" id="RqI-Wl-xCO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2sU-Oh-Ug5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2126" y="-342"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="WeF-dc-iME">
             <objects>
@@ -239,4 +403,7 @@
         <image name="parachutist" width="25" height="25"/>
         <image name="share" width="25" height="25"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="4RH-Zb-o0g"/>
+    </inferredMetricsTieBreakers>
 </document>

@@ -154,6 +154,9 @@
                                         <state key="normal" title="Share">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="ShareButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pa3-qa-vMa"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.88235294119999996" green="0.74509803919999995" blue="0.90588235289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -237,10 +240,18 @@
                                     <action selector="MapPressed:" destination="f4I-HW-tti" eventType="touchUpInside" id="8eE-Hv-lor"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap the map for Jump location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nIb-nq-nE5">
+                                <rect key="frame" x="7" y="582" width="361.5" height="33.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.88235294119999996" green="0.74509803919999995" blue="0.90588235289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Niu-56-OLr" firstAttribute="bottom" secondItem="CCj-hc-ucC" secondAttribute="bottom" constant="134" id="9b9-hc-G7p"/>
+                            <constraint firstItem="nIb-nq-nE5" firstAttribute="top" secondItem="CCj-hc-ucC" secondAttribute="bottom" constant="49" id="HgN-bA-VMd"/>
+                            <constraint firstItem="nIb-nq-nE5" firstAttribute="centerX" secondItem="Niu-56-OLr" secondAttribute="centerX" id="WmU-hl-yWM"/>
                             <constraint firstItem="CCj-hc-ucC" firstAttribute="leading" secondItem="Niu-56-OLr" secondAttribute="leading" id="dFA-Tt-izK"/>
                             <constraint firstItem="CCj-hc-ucC" firstAttribute="top" secondItem="Niu-56-OLr" secondAttribute="top" constant="67" id="kMq-s4-3lF"/>
                             <constraint firstItem="Niu-56-OLr" firstAttribute="trailing" secondItem="CCj-hc-ucC" secondAttribute="trailing" id="ptg-3N-yv2"/>
@@ -248,10 +259,13 @@
                         <viewLayoutGuide key="safeArea" id="Niu-56-OLr"/>
                     </view>
                     <navigationItem key="navigationItem" title="Jump Roulette" id="7oS-sP-1U3"/>
+                    <connections>
+                        <outlet property="Map" destination="CCj-hc-ucC" id="CXq-AO-HKl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jDs-M4-Fl0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1342" y="846"/>
+            <point key="canvasLocation" x="1341.5999999999999" y="845.1274362818591"/>
         </scene>
         <!--Weapon Compare-->
         <scene sceneID="B71-L0-1V8">

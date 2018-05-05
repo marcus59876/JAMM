@@ -68,6 +68,14 @@ class HomePageViewController: UIViewController {
     }
     /////////////////////////////////////////////////////////////////////////////
     
+    //Postcondition: Pulls up a view that allows for sharing of the app /////////////////////////////////////////////
+    @IBAction func ShareButtonPressed(_ sender: Any) {
+        let activityVC = UIActivityViewController(activityItems: ["Check out my sick app dude \n www.google.com"], applicationActivities: nil)
+        activityVC.popoverPresentationController?.sourceView = self.view
+        self.present(activityVC, animated: true, completion: nil)
+    }
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    
     @IBAction func EquipmentButtonPressed(_ sender: Any) {
         print("Equiment")
     }

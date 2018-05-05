@@ -46,7 +46,27 @@ class HomePageViewController: UIViewController {
     @IBOutlet weak var Weapon_Compare_Button: UIButton!
     @IBOutlet weak var Jump_Roulette_Button: UIButton!
     
+    @IBOutlet weak var leadingConstraint: NSLayoutConstraint!
     
+    var menu_Showing = false
+    
+    //Postcondition: Menu slides out with a 0.3 second animation////////////////
+    @IBAction func MenuButtonPressed(_ sender: Any) {
+        if (menu_Showing) {
+            leadingConstraint.constant = -301
+            UIView.animate(withDuration: 0.3, animations: {
+                self.view.layoutIfNeeded()
+            })
+        }
+        else {
+            leadingConstraint.constant = 0
+            UIView.animate(withDuration: 0.3, animations: {
+                self.view.layoutIfNeeded()
+            })
+        }
+        menu_Showing = !menu_Showing
+    }
+    /////////////////////////////////////////////////////////////////////////////
     
     @IBAction func EquipmentButtonPressed(_ sender: Any) {
         print("Equiment")

@@ -190,6 +190,9 @@
                     <navigationItem key="navigationItem" title="Fortnite Guide" id="Zrw-y1-swc">
                         <barButtonItem key="leftBarButtonItem" title="Menu Lines" image="menu_lines" id="Raa-b2-zzX">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="MenuButtonPressed:" destination="BYZ-38-t0r" id="mbd-IR-MV6"/>
+                            </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Dots" image="navbardots" id="Ri7-ni-ZEF">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -199,6 +202,7 @@
                         <outlet property="Equipment_Button" destination="PiZ-7X-woe" id="Hfy-YT-ofJ"/>
                         <outlet property="Jump_Roulette_Button" destination="OpU-JQ-bJh" id="lsN-Kh-7rQ"/>
                         <outlet property="Weapon_Compare_Button" destination="X9a-Le-c2z" id="sjT-x0-Jq8"/>
+                        <outlet property="leadingConstraint" destination="i71-oV-8hO" id="spV-ze-cdT"/>
                         <outlet property="menuView" destination="dCP-fd-bWd" id="LfR-HI-IRJ"/>
                     </connections>
                 </viewController>

@@ -15,6 +15,8 @@
 		F53C48B0209D74E20074F24A /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53C48AF209D74E20074F24A /* UIButtonExtension.swift */; };
 		F53C48B2209D7DED0074F24A /* Equipment_lvl_1_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53C48B1209D7DED0074F24A /* Equipment_lvl_1_ViewController.swift */; };
 		F53C48B5209D83630074F24A /* AssaultRiflesScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53C48B4209D83630074F24A /* AssaultRiflesScrollViewController.swift */; };
+		F53C48B8209D88260074F24A /* WeaponCompareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53C48B7209D88260074F24A /* WeaponCompareViewController.swift */; };
+		F53C48BB209D890B0074F24A /* JumpRouletteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53C48BA209D890B0074F24A /* JumpRouletteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		F53C48AF209D74E20074F24A /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 		F53C48B1209D7DED0074F24A /* Equipment_lvl_1_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Equipment_lvl_1_ViewController.swift; sourceTree = "<group>"; };
 		F53C48B4209D83630074F24A /* AssaultRiflesScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssaultRiflesScrollViewController.swift; sourceTree = "<group>"; };
+		F53C48B7209D88260074F24A /* WeaponCompareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponCompareViewController.swift; sourceTree = "<group>"; };
+		F53C48BA209D890B0074F24A /* JumpRouletteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpRouletteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 				F53C48AF209D74E20074F24A /* UIButtonExtension.swift */,
 				F53C489F209D709A0074F24A /* HomePageViewController.swift */,
 				F53C48B3209D832D0074F24A /* Equipment */,
+				F53C48B6209D87E20074F24A /* Weapon Compare */,
+				F53C48B9209D88EF0074F24A /* Jump Roulette */,
 				F53C48A1209D709A0074F24A /* Main.storyboard */,
 				F53C48A4209D709E0074F24A /* Assets.xcassets */,
 				F53C48A6209D709E0074F24A /* LaunchScreen.storyboard */,
@@ -79,6 +85,22 @@
 				F53C48B4209D83630074F24A /* AssaultRiflesScrollViewController.swift */,
 			);
 			path = Equipment;
+			sourceTree = "<group>";
+		};
+		F53C48B6209D87E20074F24A /* Weapon Compare */ = {
+			isa = PBXGroup;
+			children = (
+				F53C48B7209D88260074F24A /* WeaponCompareViewController.swift */,
+			);
+			path = "Weapon Compare";
+			sourceTree = "<group>";
+		};
+		F53C48B9209D88EF0074F24A /* Jump Roulette */ = {
+			isa = PBXGroup;
+			children = (
+				F53C48BA209D890B0074F24A /* JumpRouletteViewController.swift */,
+			);
+			path = "Jump Roulette";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,8 +176,10 @@
 			files = (
 				F53C48A0209D709A0074F24A /* HomePageViewController.swift in Sources */,
 				F53C489E209D709A0074F24A /* AppDelegate.swift in Sources */,
+				F53C48B8209D88260074F24A /* WeaponCompareViewController.swift in Sources */,
 				F53C48B5209D83630074F24A /* AssaultRiflesScrollViewController.swift in Sources */,
 				F53C48B2209D7DED0074F24A /* Equipment_lvl_1_ViewController.swift in Sources */,
+				F53C48BB209D890B0074F24A /* JumpRouletteViewController.swift in Sources */,
 				F53C48B0209D74E20074F24A /* UIButtonExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -53,6 +53,7 @@
                                 </state>
                                 <connections>
                                     <action selector="WeaponCompareButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Ei-Pn-p1K"/>
+                                    <segue destination="OdM-X9-Hze" kind="show" id="Z7o-Qs-9pq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OpU-JQ-bJh">
@@ -68,6 +69,7 @@
                                 </state>
                                 <connections>
                                     <action selector="JumpRouletteButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="89l-j4-sGe"/>
+                                    <segue destination="f4I-HW-tti" kind="show" id="JMh-un-wBS"/>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dCP-fd-bWd" userLabel="Menu View">
@@ -100,6 +102,9 @@
                                         <state key="normal" title="Weapon Compare">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="OdM-X9-Hze" kind="show" id="rqC-eG-r5n"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aMI-aa-E1k">
                                         <rect key="frame" x="0.0" y="278" width="301" height="45"/>
@@ -109,6 +114,9 @@
                                         <state key="normal" title="Jump Roulette">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="f4I-HW-tti" kind="show" id="FS1-Q9-ocU"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="__________________________________________" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FIF-09-yeN">
                                         <rect key="frame" x="0.0" y="323" width="303" height="21"/>
@@ -213,6 +221,50 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1076" y="133.5832083958021"/>
+        </scene>
+        <!--Jump Roulette-->
+        <scene sceneID="f9k-7B-XZA">
+            <objects>
+                <viewController id="f4I-HW-tti" customClass="JumpRouletteViewController" customModule="JAMM" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Kur-0n-hgc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CCj-hc-ucC">
+                                <rect key="frame" x="0.0" y="131" width="375" height="402"/>
+                                <state key="normal" backgroundImage="fortnite_map"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.88235294119999996" green="0.74509803919999995" blue="0.90588235289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Niu-56-OLr" firstAttribute="bottom" secondItem="CCj-hc-ucC" secondAttribute="bottom" constant="134" id="9b9-hc-G7p"/>
+                            <constraint firstItem="CCj-hc-ucC" firstAttribute="leading" secondItem="Niu-56-OLr" secondAttribute="leading" id="dFA-Tt-izK"/>
+                            <constraint firstItem="CCj-hc-ucC" firstAttribute="top" secondItem="Niu-56-OLr" secondAttribute="top" constant="67" id="kMq-s4-3lF"/>
+                            <constraint firstItem="Niu-56-OLr" firstAttribute="trailing" secondItem="CCj-hc-ucC" secondAttribute="trailing" id="ptg-3N-yv2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Niu-56-OLr"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Jump Roulette" id="7oS-sP-1U3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jDs-M4-Fl0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1342" y="846"/>
+        </scene>
+        <!--Weapon Compare-->
+        <scene sceneID="B71-L0-1V8">
+            <objects>
+                <viewController id="OdM-X9-Hze" customClass="WeaponCompareViewController" customModule="JAMM" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9dL-mC-kBp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="DET-0K-TYk"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Weapon Compare" id="2Yv-oe-MRG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="55q-Jt-1qk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2191" y="554"/>
         </scene>
         <!--Equipment-->
         <scene sceneID="nXv-vy-R2x">
@@ -529,6 +581,7 @@
         <image name="ar_scar" width="68" height="68"/>
         <image name="ar_scoped" width="68" height="68"/>
         <image name="backpack-icon" width="25" height="25"/>
+        <image name="fortnite_map" width="360" height="360"/>
         <image name="gunicon" width="25" height="25"/>
         <image name="logo" width="198" height="153"/>
         <image name="menu_lines" width="25" height="25"/>
@@ -538,5 +591,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="4RH-Zb-o0g"/>
+        <segue reference="Z7o-Qs-9pq"/>
+        <segue reference="JMh-un-wBS"/>
     </inferredMetricsTieBreakers>
 </document>

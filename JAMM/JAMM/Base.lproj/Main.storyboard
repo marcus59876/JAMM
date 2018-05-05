@@ -238,6 +238,9 @@
                                                 <state key="normal" title="ASSAULT RIFLES">
                                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="ys1-Hw-DCK" kind="show" id="B0Z-NW-E4G"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sk7-CS-kfh">
                                                 <rect key="frame" x="63" y="181" width="249" height="60"/>
@@ -374,6 +377,124 @@
             </objects>
             <point key="canvasLocation" x="2126" y="-342"/>
         </scene>
+        <!--Assault Rifles-->
+        <scene sceneID="gMr-EN-x55">
+            <objects>
+                <viewController id="ys1-Hw-DCK" customClass="AssaultRiflesScrollViewController" customModule="JAMM" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yf2-Ah-W4H">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WSy-tP-sX1">
+                                <rect key="frame" x="0.0" y="64" width="375" height="936"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="46P-oH-FuD">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="boW-cf-aY7">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="201"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="201" id="043-6N-ltk"/>
+                                                </constraints>
+                                                <state key="normal" image="ar_m16"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p0J-9t-Dmn">
+                                                <rect key="frame" x="0.0" y="201" width="375" height="201"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="201" id="mwb-Cd-IU5"/>
+                                                </constraints>
+                                                <state key="normal" image="ar_burst"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nqi-f0-Dkv">
+                                                <rect key="frame" x="0.0" y="402" width="375" height="201"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="201" id="Uho-MZ-qYt"/>
+                                                </constraints>
+                                                <state key="normal" image="ar_scoped"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5lb-Al-zfs">
+                                                <rect key="frame" x="0.0" y="603" width="375" height="201"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="201" id="nTw-kt-1dy"/>
+                                                </constraints>
+                                                <state key="normal" image="ar_scar"/>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="M16" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wc6-sp-OFX">
+                                                <rect key="frame" x="159.5" y="165" width="57.5" height="36"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Burst Assault Rifle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="34e-iy-zfz">
+                                                <rect key="frame" x="71.5" y="366" width="233.5" height="36"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scoped Assault Rifle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WZ6-k4-blQ">
+                                                <rect key="frame" x="55.5" y="567" width="264.5" height="36"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3q7-0s-tej">
+                                                <rect key="frame" x="158.5" y="768" width="59" height="36"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.88235294119999996" green="0.74509803919999995" blue="0.90588235289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="p0J-9t-Dmn" firstAttribute="top" secondItem="boW-cf-aY7" secondAttribute="bottom" id="0Ff-Hb-0pr"/>
+                                            <constraint firstAttribute="trailing" secondItem="Nqi-f0-Dkv" secondAttribute="trailing" id="1Af-kZ-fVb"/>
+                                            <constraint firstAttribute="height" constant="1000" id="2aM-4N-ACy"/>
+                                            <constraint firstItem="34e-iy-zfz" firstAttribute="centerX" secondItem="p0J-9t-Dmn" secondAttribute="centerX" id="3k4-jM-KOe"/>
+                                            <constraint firstItem="p0J-9t-Dmn" firstAttribute="leading" secondItem="46P-oH-FuD" secondAttribute="leading" id="7FL-Ma-Imq"/>
+                                            <constraint firstAttribute="trailing" secondItem="boW-cf-aY7" secondAttribute="trailing" id="7nH-ca-W24"/>
+                                            <constraint firstItem="boW-cf-aY7" firstAttribute="leading" secondItem="46P-oH-FuD" secondAttribute="leading" id="8nV-lX-hlQ"/>
+                                            <constraint firstItem="boW-cf-aY7" firstAttribute="top" secondItem="46P-oH-FuD" secondAttribute="top" id="G14-hn-sh0"/>
+                                            <constraint firstItem="Nqi-f0-Dkv" firstAttribute="top" secondItem="p0J-9t-Dmn" secondAttribute="bottom" id="Gct-vR-leb"/>
+                                            <constraint firstItem="3q7-0s-tej" firstAttribute="centerX" secondItem="5lb-Al-zfs" secondAttribute="centerX" id="IPC-by-XbW"/>
+                                            <constraint firstItem="Nqi-f0-Dkv" firstAttribute="leading" secondItem="46P-oH-FuD" secondAttribute="leading" id="LLe-ZZ-7x3"/>
+                                            <constraint firstItem="p0J-9t-Dmn" firstAttribute="top" secondItem="Wc6-sp-OFX" secondAttribute="bottom" id="NPk-ua-pRQ"/>
+                                            <constraint firstItem="3q7-0s-tej" firstAttribute="top" secondItem="Nqi-f0-Dkv" secondAttribute="bottom" constant="165" id="Nc5-C1-WcX"/>
+                                            <constraint firstItem="WZ6-k4-blQ" firstAttribute="centerX" secondItem="Nqi-f0-Dkv" secondAttribute="centerX" id="QCD-iD-RGf"/>
+                                            <constraint firstItem="5lb-Al-zfs" firstAttribute="top" secondItem="WZ6-k4-blQ" secondAttribute="bottom" id="SH1-Do-xaY"/>
+                                            <constraint firstAttribute="trailing" secondItem="5lb-Al-zfs" secondAttribute="trailing" id="Tzx-0h-wC7"/>
+                                            <constraint firstItem="5lb-Al-zfs" firstAttribute="leading" secondItem="46P-oH-FuD" secondAttribute="leading" id="UR1-g4-5PP"/>
+                                            <constraint firstAttribute="trailing" secondItem="p0J-9t-Dmn" secondAttribute="trailing" id="Y59-r8-5E2"/>
+                                            <constraint firstItem="Wc6-sp-OFX" firstAttribute="centerX" secondItem="boW-cf-aY7" secondAttribute="centerX" id="fsT-SH-VrF"/>
+                                            <constraint firstItem="Nqi-f0-Dkv" firstAttribute="top" secondItem="34e-iy-zfz" secondAttribute="bottom" id="iVF-Bn-LO7"/>
+                                            <constraint firstItem="5lb-Al-zfs" firstAttribute="top" secondItem="Nqi-f0-Dkv" secondAttribute="bottom" id="m3X-03-JdV"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="46P-oH-FuD" firstAttribute="leading" secondItem="WSy-tP-sX1" secondAttribute="leading" id="Z2V-2X-cwb"/>
+                                    <constraint firstAttribute="bottom" secondItem="46P-oH-FuD" secondAttribute="bottom" id="cdk-Wt-ny1"/>
+                                    <constraint firstAttribute="trailing" secondItem="46P-oH-FuD" secondAttribute="trailing" id="mLi-U9-v9Z"/>
+                                    <constraint firstItem="46P-oH-FuD" firstAttribute="top" secondItem="WSy-tP-sX1" secondAttribute="top" id="zAl-Sd-QVF"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="WSy-tP-sX1" firstAttribute="top" secondItem="9N5-fi-OPI" secondAttribute="top" id="3j5-ib-uu1"/>
+                            <constraint firstItem="9N5-fi-OPI" firstAttribute="trailing" secondItem="WSy-tP-sX1" secondAttribute="trailing" id="6ga-6b-qHs"/>
+                            <constraint firstItem="46P-oH-FuD" firstAttribute="width" secondItem="yf2-Ah-W4H" secondAttribute="width" id="Rib-2h-HiS"/>
+                            <constraint firstItem="WSy-tP-sX1" firstAttribute="leading" secondItem="9N5-fi-OPI" secondAttribute="leading" id="aIF-Rr-MhO"/>
+                            <constraint firstItem="9N5-fi-OPI" firstAttribute="bottom" secondItem="WSy-tP-sX1" secondAttribute="bottom" id="nY3-gL-Wz6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="9N5-fi-OPI"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Assault Rifles" id="JuU-Ar-SuT"/>
+                    <size key="freeformSize" width="375" height="1000"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cc0-zM-Plw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2998" y="-559"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="WeF-dc-iME">
             <objects>
@@ -395,6 +516,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="ar_burst" width="68" height="68"/>
+        <image name="ar_m16" width="68" height="68"/>
+        <image name="ar_scar" width="68" height="68"/>
+        <image name="ar_scoped" width="68" height="68"/>
         <image name="backpack-icon" width="25" height="25"/>
         <image name="gunicon" width="25" height="25"/>
         <image name="logo" width="198" height="153"/>

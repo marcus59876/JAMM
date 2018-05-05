@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AudioToolbox
 
 class JumpRouletteViewController: UIViewController {
 
@@ -19,5 +20,12 @@ class JumpRouletteViewController: UIViewController {
         
     }
     
-
+    let impact = UIImpactFeedbackGenerator(style: .medium)    //Allows for a small vibration when button is clicked
+    @IBAction func MapPressed(_ sender: Any) {
+        impact.impactOccurred()
+            /*AudioServicesPlaySystemSound(kSystemSoundID_Vibrate)*/
+            
+        
+    }
+    
 }

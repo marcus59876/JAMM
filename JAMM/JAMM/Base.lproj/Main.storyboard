@@ -70,7 +70,7 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dCP-fd-bWd" userLabel="Menu View">
-                                <rect key="frame" x="0.0" y="64" width="301" height="603"/>
+                                <rect key="frame" x="-301" y="64" width="301" height="603"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="6mE-WU-h4q">
                                         <rect key="frame" x="0.0" y="0.0" width="301" height="180"/>
@@ -182,7 +182,7 @@
                             <constraint firstItem="OpU-JQ-bJh" firstAttribute="top" secondItem="X9a-Le-c2z" secondAttribute="bottom" constant="35" id="Ydb-eC-frq"/>
                             <constraint firstItem="PiZ-7X-woe" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="aOd-0h-zWi"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rIj-DW-LCz" secondAttribute="trailing" id="cgq-Jb-eYU"/>
-                            <constraint firstItem="dCP-fd-bWd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="i71-oV-8hO"/>
+                            <constraint firstItem="dCP-fd-bWd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="-301" id="i71-oV-8hO"/>
                             <constraint firstItem="OpU-JQ-bJh" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="rlC-Oc-nB0"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -196,6 +196,9 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="Equipment_Button" destination="PiZ-7X-woe" id="Hfy-YT-ofJ"/>
+                        <outlet property="Jump_Roulette_Button" destination="OpU-JQ-bJh" id="lsN-Kh-7rQ"/>
+                        <outlet property="Weapon_Compare_Button" destination="X9a-Le-c2z" id="sjT-x0-Jq8"/>
                         <outlet property="menuView" destination="dCP-fd-bWd" id="LfR-HI-IRJ"/>
                     </connections>
                 </viewController>

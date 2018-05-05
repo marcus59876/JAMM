@@ -35,6 +35,9 @@
                                 <state key="normal" title="EQUIPMENT">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="EquipmentButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DDs-nW-j7f"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X9a-Le-c2z">
                                 <rect key="frame" x="112" y="457" width="150" height="40"/>
@@ -47,6 +50,9 @@
                                 <state key="normal" title="WEAPON COMPARE">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="WeaponCompareButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Ei-Pn-p1K"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OpU-JQ-bJh">
                                 <rect key="frame" x="112" y="532" width="150" height="40"/>
@@ -59,6 +65,9 @@
                                 <state key="normal" title="JUMP ROULETTE">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="JumpRouletteButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="89l-j4-sGe"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.88235294117647056" green="0.74509803921568629" blue="0.90588235294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

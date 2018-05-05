@@ -22,6 +22,15 @@ class HomePageViewController: UIViewController {
         title.textColor = UIColor(red: 1, green: 1, blue: 1, alpha: 1)
         self.navigationItem.titleView = title
     }
-
+    @IBAction func EquipmentButtonPressed(_ sender: Any) {
+        print("Equiment")
+    }
+    @IBAction func WeaponCompareButtonPressed(_ sender: Any) {
+        print("Weapon")
+    }
+    @IBAction func JumpRouletteButtonPressed(_ sender: Any) {
+        print("Jump")
+    }
+    
 }
 

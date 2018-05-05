@@ -343,6 +343,7 @@
                                         </constraints>
                                     </view>
                                 </subviews>
+                                <color key="backgroundColor" red="0.88235294119999996" green="0.74509803919999995" blue="0.90588235289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="bEr-Ay-Rr0" firstAttribute="leading" secondItem="omd-Rq-Brw" secondAttribute="leading" id="04a-vI-xFW"/>
                                     <constraint firstAttribute="trailing" secondItem="bEr-Ay-Rr0" secondAttribute="trailing" id="WHY-wN-ohQ"/>
@@ -470,6 +471,7 @@
                                         </constraints>
                                     </view>
                                 </subviews>
+                                <color key="backgroundColor" red="0.88235294119999996" green="0.74509803919999995" blue="0.90588235289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="46P-oH-FuD" firstAttribute="leading" secondItem="WSy-tP-sX1" secondAttribute="leading" id="Z2V-2X-cwb"/>
                                     <constraint firstAttribute="bottom" secondItem="46P-oH-FuD" secondAttribute="bottom" id="cdk-Wt-ny1"/>
@@ -490,6 +492,12 @@
                     </view>
                     <navigationItem key="navigationItem" title="Assault Rifles" id="JuU-Ar-SuT"/>
                     <size key="freeformSize" width="375" height="1000"/>
+                    <connections>
+                        <outlet property="Burst" destination="p0J-9t-Dmn" id="LeE-qA-zwn"/>
+                        <outlet property="M16" destination="boW-cf-aY7" id="AfE-e6-vbA"/>
+                        <outlet property="Scar" destination="5lb-Al-zfs" id="vUQ-eu-gb1"/>
+                        <outlet property="Scoped" destination="Nqi-f0-Dkv" id="DOs-pz-eif"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cc0-zM-Plw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

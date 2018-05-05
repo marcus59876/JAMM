@@ -9,27 +9,37 @@
 import UIKit
 
 class AssaultRiflesScrollViewController: UIViewController {
+    
+    func  setupbuttons(x: UIButton){
+        x.layer.borderColor = UIColor.gray.cgColor
+        x.layer.borderWidth = 0.2
+        x.showsTouchWhenHighlighted = true
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        setupUI()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func setupUI() {
+        let title = UILabel()
+        title.font = UIFont(name: "HelveticaNeue-Bold", size: 20.0)
+        title.text = "Assault Rifles"
+        title.textColor = UIColor(red: 1, green: 1, blue: 1, alpha: 1)
+        self.navigationItem.titleView = title
+        self.navigationController?.navigationBar.tintColor = UIColor.white
+        
+        setupbuttons(x: M16)
+        setupbuttons(x: Burst)
+        setupbuttons(x: Scoped)
+        setupbuttons(x: Scar)
     }
+    @IBOutlet weak var M16: UIButton!
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+    @IBOutlet weak var Burst: UIButton!
+    
+    @IBOutlet weak var Scoped: UIButton!
+    
+    @IBOutlet weak var Scar: UIButton!
 }

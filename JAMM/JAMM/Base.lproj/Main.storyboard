@@ -327,6 +327,9 @@
                                                 <state key="normal" title="SHOTGUNS">
                                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="AUn-or-2px" kind="show" id="iZd-0C-eWE"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Bd-B8-cRZ">
                                                 <rect key="frame" x="63" y="301.5" width="249" height="60"/>
@@ -338,6 +341,9 @@
                                                 <state key="normal" title="SNIPERS">
                                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="ngz-v9-Zi6" kind="show" id="1Vt-Ff-7Xx"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pba-4m-eVD">
                                                 <rect key="frame" x="63" y="542.5" width="249" height="60"/>
@@ -349,6 +355,9 @@
                                                 <state key="normal" title="MACHINE GUNS">
                                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="33Q-Pb-sr8" kind="show" id="qBi-cJ-H7Z"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ffc-4I-SWb">
                                                 <rect key="frame" x="63" y="422" width="249" height="60"/>
@@ -360,6 +369,9 @@
                                                 <state key="normal" title="SMGS">
                                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="zCj-Dd-UkA" kind="show" id="Jee-LE-l87"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y9Q-W4-3Rt">
                                                 <rect key="frame" x="63" y="783.5" width="249" height="60"/>
@@ -371,6 +383,9 @@
                                                 <state key="normal" title="EXPLOSIVES">
                                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="rtL-fD-dZR" kind="show" id="w9a-W9-b7f"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rNc-l5-cKO">
                                                 <rect key="frame" x="63" y="663" width="249" height="60"/>
@@ -382,6 +397,9 @@
                                                 <state key="normal" title="PISTOLS">
                                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
+                                                <connections>
+                                                    <segue destination="WQT-7b-qKp" kind="show" id="2xE-gU-MCp"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.88235294119999996" green="0.74509803919999995" blue="0.90588235289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -452,6 +470,484 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2sU-Oh-Ug5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2126" y="-342"/>
+        </scene>
+        <!--Explosives-->
+        <scene sceneID="jJO-zf-iqX">
+            <objects>
+                <viewController id="rtL-fD-dZR" customClass="ExplosivesScrollViewController" customModule="JAMM" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0vg-63-Zw9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pS1-th-a4y">
+                                <rect key="frame" x="0.0" y="64" width="375" height="201"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="201" id="tOM-0h-xPH"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iJy-dN-Ps6">
+                                <rect key="frame" x="0.0" y="265" width="375" height="201"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="201" id="AMl-If-a67"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Grenade Launcher" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mqO-WA-ByE">
+                                <rect key="frame" x="68.5" y="229" width="238.5" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rocket Launcher" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qtl-yp-tO6">
+                                <rect key="frame" x="79.5" y="430" width="217.5" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.88235294119999996" green="0.74509803919999995" blue="0.90588235289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="A0S-k7-uVP" firstAttribute="trailing" secondItem="iJy-dN-Ps6" secondAttribute="trailing" id="5NH-PV-oMg"/>
+                            <constraint firstItem="iJy-dN-Ps6" firstAttribute="top" secondItem="pS1-th-a4y" secondAttribute="bottom" id="GhI-BY-DL5"/>
+                            <constraint firstItem="Qtl-yp-tO6" firstAttribute="top" secondItem="pS1-th-a4y" secondAttribute="bottom" constant="165" id="KrO-tq-ibz"/>
+                            <constraint firstItem="mqO-WA-ByE" firstAttribute="centerX" secondItem="pS1-th-a4y" secondAttribute="centerX" id="Rbh-ue-dcb"/>
+                            <constraint firstItem="A0S-k7-uVP" firstAttribute="trailing" secondItem="pS1-th-a4y" secondAttribute="trailing" id="Uly-qg-hBd"/>
+                            <constraint firstItem="pS1-th-a4y" firstAttribute="leading" secondItem="A0S-k7-uVP" secondAttribute="leading" id="g8N-MA-UkU"/>
+                            <constraint firstItem="Qtl-yp-tO6" firstAttribute="centerX" secondItem="iJy-dN-Ps6" secondAttribute="centerX" id="kh0-cu-ROS"/>
+                            <constraint firstItem="iJy-dN-Ps6" firstAttribute="leading" secondItem="A0S-k7-uVP" secondAttribute="leading" id="vsb-PO-eCa"/>
+                            <constraint firstItem="pS1-th-a4y" firstAttribute="top" secondItem="A0S-k7-uVP" secondAttribute="top" id="wqK-MD-6kS"/>
+                            <constraint firstItem="iJy-dN-Ps6" firstAttribute="top" secondItem="mqO-WA-ByE" secondAttribute="bottom" id="yAs-fh-sKz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="A0S-k7-uVP"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Explosives" id="mzY-3u-n70"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kbs-IA-hIr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6337" y="-1801"/>
+        </scene>
+        <!--Pistols-->
+        <scene sceneID="WUe-HT-v4p">
+            <objects>
+                <viewController id="WQT-7b-qKp" customClass="PistolsScrollViewController" customModule="JAMM" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oWd-A3-8wT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z1e-1F-TVI">
+                                <rect key="frame" x="0.0" y="64" width="375" height="936"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LMl-Ae-HnK">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o7i-xI-Ztg">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="201"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="201" id="V8r-DA-hnh"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gEF-tu-v9h">
+                                                <rect key="frame" x="0.0" y="201" width="375" height="201"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="201" id="xjt-IK-Lkc"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eex-ro-3c7">
+                                                <rect key="frame" x="0.0" y="402" width="375" height="201"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="201" id="g14-9G-aRd"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Crh-fU-Wwv">
+                                                <rect key="frame" x="0.0" y="603" width="375" height="201"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="201" id="32A-1h-Uly"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Basic Pistol" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vsQ-TH-fBC">
+                                                <rect key="frame" x="114.5" y="165" width="147" height="36"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hand Cannon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NqC-bH-eox">
+                                                <rect key="frame" x="99.5" y="366" width="177.5" height="36"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Revolver" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dN1-IJ-eSk">
+                                                <rect key="frame" x="132" y="567" width="111.5" height="36"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Silenced Pistol" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1or-n7-IIh">
+                                                <rect key="frame" x="93.5" y="768" width="188" height="36"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.88235294119999996" green="0.74509803919999995" blue="0.90588235289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="Crh-fU-Wwv" secondAttribute="trailing" id="8Ct-zj-XuT"/>
+                                            <constraint firstAttribute="trailing" secondItem="o7i-xI-Ztg" secondAttribute="trailing" id="AT6-hz-Gre"/>
+                                            <constraint firstItem="o7i-xI-Ztg" firstAttribute="top" secondItem="LMl-Ae-HnK" secondAttribute="top" id="DWA-gX-wHG"/>
+                                            <constraint firstItem="eex-ro-3c7" firstAttribute="top" secondItem="gEF-tu-v9h" secondAttribute="bottom" id="Fgn-G0-7pU"/>
+                                            <constraint firstItem="1or-n7-IIh" firstAttribute="centerX" secondItem="Crh-fU-Wwv" secondAttribute="centerX" id="I7C-z6-RuM"/>
+                                            <constraint firstItem="vsQ-TH-fBC" firstAttribute="centerX" secondItem="o7i-xI-Ztg" secondAttribute="centerX" id="Syw-cf-wxm"/>
+                                            <constraint firstAttribute="trailing" secondItem="gEF-tu-v9h" secondAttribute="trailing" id="TLn-Yk-XcE"/>
+                                            <constraint firstItem="eex-ro-3c7" firstAttribute="leading" secondItem="LMl-Ae-HnK" secondAttribute="leading" id="VaK-dj-rO2"/>
+                                            <constraint firstItem="gEF-tu-v9h" firstAttribute="top" secondItem="o7i-xI-Ztg" secondAttribute="bottom" id="VpB-1X-lQs"/>
+                                            <constraint firstItem="dN1-IJ-eSk" firstAttribute="centerX" secondItem="eex-ro-3c7" secondAttribute="centerX" id="aUL-Yz-MrL"/>
+                                            <constraint firstItem="gEF-tu-v9h" firstAttribute="leading" secondItem="LMl-Ae-HnK" secondAttribute="leading" id="bK1-kB-vyq"/>
+                                            <constraint firstAttribute="trailing" secondItem="eex-ro-3c7" secondAttribute="trailing" id="eG3-Qc-gNz"/>
+                                            <constraint firstItem="eex-ro-3c7" firstAttribute="top" secondItem="NqC-bH-eox" secondAttribute="bottom" id="h9Q-s5-2Mh"/>
+                                            <constraint firstItem="gEF-tu-v9h" firstAttribute="top" secondItem="vsQ-TH-fBC" secondAttribute="bottom" id="jOg-Dx-t8u"/>
+                                            <constraint firstItem="NqC-bH-eox" firstAttribute="centerX" secondItem="gEF-tu-v9h" secondAttribute="centerX" id="kYm-zJ-5NE"/>
+                                            <constraint firstItem="Crh-fU-Wwv" firstAttribute="leading" secondItem="LMl-Ae-HnK" secondAttribute="leading" id="qhg-Mh-aL7"/>
+                                            <constraint firstItem="Crh-fU-Wwv" firstAttribute="top" secondItem="dN1-IJ-eSk" secondAttribute="bottom" id="sq6-FN-PIS"/>
+                                            <constraint firstAttribute="height" constant="1000" id="vbd-qa-4fE"/>
+                                            <constraint firstItem="Crh-fU-Wwv" firstAttribute="top" secondItem="eex-ro-3c7" secondAttribute="bottom" id="vfA-ud-N12"/>
+                                            <constraint firstItem="o7i-xI-Ztg" firstAttribute="leading" secondItem="LMl-Ae-HnK" secondAttribute="leading" id="w4R-JJ-Luy"/>
+                                            <constraint firstItem="1or-n7-IIh" firstAttribute="top" secondItem="eex-ro-3c7" secondAttribute="bottom" constant="165" id="weJ-U0-u6W"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="LMl-Ae-HnK" secondAttribute="bottom" id="AQ9-kW-oaf"/>
+                                    <constraint firstAttribute="trailing" secondItem="LMl-Ae-HnK" secondAttribute="trailing" id="Bch-wO-cqI"/>
+                                    <constraint firstItem="LMl-Ae-HnK" firstAttribute="leading" secondItem="z1e-1F-TVI" secondAttribute="leading" id="HJn-eI-25g"/>
+                                    <constraint firstItem="LMl-Ae-HnK" firstAttribute="top" secondItem="z1e-1F-TVI" secondAttribute="top" id="Uas-lg-lbT"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.88235294119999996" green="0.74509803919999995" blue="0.90588235289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="LMl-Ae-HnK" firstAttribute="width" secondItem="oWd-A3-8wT" secondAttribute="width" id="5XB-1Y-a5u"/>
+                            <constraint firstItem="w7s-QP-ZUx" firstAttribute="trailing" secondItem="z1e-1F-TVI" secondAttribute="trailing" id="Apj-hp-eOI"/>
+                            <constraint firstItem="z1e-1F-TVI" firstAttribute="leading" secondItem="w7s-QP-ZUx" secondAttribute="leading" id="HO4-iV-aQv"/>
+                            <constraint firstItem="z1e-1F-TVI" firstAttribute="top" secondItem="w7s-QP-ZUx" secondAttribute="top" id="L7c-jb-1eF"/>
+                            <constraint firstItem="w7s-QP-ZUx" firstAttribute="bottom" secondItem="z1e-1F-TVI" secondAttribute="bottom" id="SVk-Ax-Yt3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="w7s-QP-ZUx"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Pistols" id="Lb6-R3-epS"/>
+                    <size key="freeformSize" width="375" height="1000"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qr2-Uy-eAZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5673" y="-1651"/>
+        </scene>
+        <!--Machine Guns-->
+        <scene sceneID="yVQ-I3-qMP">
+            <objects>
+                <viewController id="33Q-Pb-sr8" customClass="MachineGunsScrollViewController" customModule="JAMM" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2mC-jH-aiG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a79-vT-ijQ">
+                                <rect key="frame" x="0.0" y="64" width="375" height="201"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="201" id="Zjb-sr-AiM"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m5E-U6-mbU">
+                                <rect key="frame" x="0.0" y="265" width="375" height="201"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="201" id="qnK-AL-IPM"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Light Machine Gun" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LbG-EN-jcb">
+                                <rect key="frame" x="66" y="229" width="243" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Minigun" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xh2-Ji-Jtq">
+                                <rect key="frame" x="135.5" y="430" width="104" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.88235294119999996" green="0.74509803919999995" blue="0.90588235289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="W9t-Rl-O6r" firstAttribute="trailing" secondItem="m5E-U6-mbU" secondAttribute="trailing" id="9XP-4E-veB"/>
+                            <constraint firstItem="m5E-U6-mbU" firstAttribute="top" secondItem="a79-vT-ijQ" secondAttribute="bottom" id="B3B-7J-Qxo"/>
+                            <constraint firstItem="xh2-Ji-Jtq" firstAttribute="top" secondItem="a79-vT-ijQ" secondAttribute="bottom" constant="165" id="G2U-sg-8Gl"/>
+                            <constraint firstItem="m5E-U6-mbU" firstAttribute="leading" secondItem="W9t-Rl-O6r" secondAttribute="leading" id="HCb-Wm-1Jh"/>
+                            <constraint firstItem="LbG-EN-jcb" firstAttribute="centerX" secondItem="a79-vT-ijQ" secondAttribute="centerX" id="gT7-8e-bIJ"/>
+                            <constraint firstItem="a79-vT-ijQ" firstAttribute="top" secondItem="W9t-Rl-O6r" secondAttribute="top" id="qEI-F9-c65"/>
+                            <constraint firstItem="m5E-U6-mbU" firstAttribute="top" secondItem="LbG-EN-jcb" secondAttribute="bottom" id="rbN-6L-f6x"/>
+                            <constraint firstItem="a79-vT-ijQ" firstAttribute="leading" secondItem="W9t-Rl-O6r" secondAttribute="leading" id="vIP-MZ-wrk"/>
+                            <constraint firstItem="W9t-Rl-O6r" firstAttribute="trailing" secondItem="a79-vT-ijQ" secondAttribute="trailing" id="ynj-Rx-sDs"/>
+                            <constraint firstItem="xh2-Ji-Jtq" firstAttribute="centerX" secondItem="m5E-U6-mbU" secondAttribute="centerX" id="yxa-B6-0th"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="W9t-Rl-O6r"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Machine Guns" id="vca-eG-dvi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qzd-Si-sjc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5018" y="-1800"/>
+        </scene>
+        <!--SMGS-->
+        <scene sceneID="wG6-oG-ad4">
+            <objects>
+                <viewController id="zCj-Dd-UkA" customClass="SMGScrollViewController" customModule="JAMM" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Xi2-v4-U6d">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TB5-SI-kzn">
+                                <rect key="frame" x="0.0" y="64" width="375" height="201"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="201" id="HZp-2s-LCU"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ikX-rc-UOT">
+                                <rect key="frame" x="0.0" y="265" width="375" height="201"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="201" id="fmp-NJ-dCQ"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tactical SMG" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MI5-c5-91g">
+                                <rect key="frame" x="103.5" y="229" width="169.5" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Silenced SMG" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GDo-8R-BmN">
+                                <rect key="frame" x="96.5" y="430" width="183" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.88235294119999996" green="0.74509803919999995" blue="0.90588235289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="nAJ-8w-gAA" firstAttribute="trailing" secondItem="ikX-rc-UOT" secondAttribute="trailing" id="46O-Sd-p2v"/>
+                            <constraint firstItem="nAJ-8w-gAA" firstAttribute="trailing" secondItem="TB5-SI-kzn" secondAttribute="trailing" id="6jB-hW-qMg"/>
+                            <constraint firstItem="TB5-SI-kzn" firstAttribute="leading" secondItem="nAJ-8w-gAA" secondAttribute="leading" id="7Hj-1x-HkV"/>
+                            <constraint firstItem="ikX-rc-UOT" firstAttribute="top" secondItem="MI5-c5-91g" secondAttribute="bottom" id="D3s-Dc-v7G"/>
+                            <constraint firstItem="GDo-8R-BmN" firstAttribute="centerX" secondItem="ikX-rc-UOT" secondAttribute="centerX" id="LPK-DP-ayD"/>
+                            <constraint firstItem="ikX-rc-UOT" firstAttribute="leading" secondItem="nAJ-8w-gAA" secondAttribute="leading" id="Qcq-Yr-YFj"/>
+                            <constraint firstItem="ikX-rc-UOT" firstAttribute="top" secondItem="TB5-SI-kzn" secondAttribute="bottom" id="WLA-ax-GZ0"/>
+                            <constraint firstItem="MI5-c5-91g" firstAttribute="centerX" secondItem="TB5-SI-kzn" secondAttribute="centerX" id="fGM-Ib-W4N"/>
+                            <constraint firstItem="TB5-SI-kzn" firstAttribute="top" secondItem="nAJ-8w-gAA" secondAttribute="top" id="p0X-nG-lEg"/>
+                            <constraint firstItem="GDo-8R-BmN" firstAttribute="top" secondItem="TB5-SI-kzn" secondAttribute="bottom" constant="165" id="uWd-et-92D"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="nAJ-8w-gAA"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="SMGS" id="gTg-m3-Hxk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BpV-6B-Spp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4351.1999999999998" y="-1799.5502248875564"/>
+        </scene>
+        <!--Snipers-->
+        <scene sceneID="nTj-8w-IvI">
+            <objects>
+                <viewController id="ngz-v9-Zi6" customClass="SnipersScrollViewController" customModule="JAMM" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YXN-Kp-6C2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zDr-oh-U6k">
+                                <rect key="frame" x="0.0" y="64" width="375" height="936"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="72B-Io-say">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r4q-Vm-kcs">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="201"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="201" id="LMf-yV-NMh"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LWc-IC-jRj">
+                                                <rect key="frame" x="0.0" y="201" width="375" height="201"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="201" id="tyx-ME-uQh"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Fk-72-PoB">
+                                                <rect key="frame" x="0.0" y="402" width="375" height="201"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="201" id="e99-Ne-VIX"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Zq-9Y-Frz">
+                                                <rect key="frame" x="0.0" y="603" width="375" height="201"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="201" id="HBb-Uz-N5I"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bolt-Action Sniper" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dy4-1i-Ae0">
+                                                <rect key="frame" x="70" y="165" width="236" height="36"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Semi-Auto Sniper" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JPU-Ra-Sef">
+                                                <rect key="frame" x="74.5" y="366" width="227.5" height="36"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hunting Rifle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B7u-dj-xNB">
+                                                <rect key="frame" x="105" y="567" width="166" height="36"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Crossbow" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nun-mO-YYR">
+                                                <rect key="frame" x="123" y="768" width="130" height="36"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.88235294119999996" green="0.74509803919999995" blue="0.90588235289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="r4q-Vm-kcs" secondAttribute="trailing" id="0aS-iN-WOp"/>
+                                            <constraint firstAttribute="trailing" secondItem="LWc-IC-jRj" secondAttribute="trailing" id="462-4n-NIT"/>
+                                            <constraint firstAttribute="trailing" secondItem="4Zq-9Y-Frz" secondAttribute="trailing" id="87j-PK-DGB"/>
+                                            <constraint firstAttribute="trailing" secondItem="8Fk-72-PoB" secondAttribute="trailing" id="9Nc-2G-cLX"/>
+                                            <constraint firstItem="4Zq-9Y-Frz" firstAttribute="leading" secondItem="72B-Io-say" secondAttribute="leading" id="DpS-Ah-bnH"/>
+                                            <constraint firstItem="8Fk-72-PoB" firstAttribute="leading" secondItem="72B-Io-say" secondAttribute="leading" id="Dy9-jM-m9l"/>
+                                            <constraint firstAttribute="height" constant="1000" id="L5U-ce-JOP"/>
+                                            <constraint firstItem="LWc-IC-jRj" firstAttribute="top" secondItem="r4q-Vm-kcs" secondAttribute="bottom" id="Nvd-Uo-TpU"/>
+                                            <constraint firstItem="8Fk-72-PoB" firstAttribute="top" secondItem="JPU-Ra-Sef" secondAttribute="bottom" id="QkH-mA-UHm"/>
+                                            <constraint firstItem="Nun-mO-YYR" firstAttribute="centerX" secondItem="4Zq-9Y-Frz" secondAttribute="centerX" id="Uq7-cq-L2D"/>
+                                            <constraint firstItem="LWc-IC-jRj" firstAttribute="leading" secondItem="72B-Io-say" secondAttribute="leading" id="XsJ-MW-lbP"/>
+                                            <constraint firstItem="4Zq-9Y-Frz" firstAttribute="top" secondItem="B7u-dj-xNB" secondAttribute="bottom" id="Ztw-35-rMt"/>
+                                            <constraint firstItem="r4q-Vm-kcs" firstAttribute="leading" secondItem="72B-Io-say" secondAttribute="leading" id="cCJ-d5-EsA"/>
+                                            <constraint firstItem="4Zq-9Y-Frz" firstAttribute="top" secondItem="8Fk-72-PoB" secondAttribute="bottom" id="cGg-LO-ppx"/>
+                                            <constraint firstItem="Nun-mO-YYR" firstAttribute="top" secondItem="8Fk-72-PoB" secondAttribute="bottom" constant="165" id="d8M-ty-WKz"/>
+                                            <constraint firstItem="B7u-dj-xNB" firstAttribute="centerX" secondItem="8Fk-72-PoB" secondAttribute="centerX" id="phM-e7-Amu"/>
+                                            <constraint firstItem="LWc-IC-jRj" firstAttribute="top" secondItem="Dy4-1i-Ae0" secondAttribute="bottom" id="rtu-Lb-L3Z"/>
+                                            <constraint firstItem="r4q-Vm-kcs" firstAttribute="top" secondItem="72B-Io-say" secondAttribute="top" id="sac-7t-tp5"/>
+                                            <constraint firstItem="JPU-Ra-Sef" firstAttribute="centerX" secondItem="LWc-IC-jRj" secondAttribute="centerX" id="sg1-FD-G8t"/>
+                                            <constraint firstItem="Dy4-1i-Ae0" firstAttribute="centerX" secondItem="r4q-Vm-kcs" secondAttribute="centerX" id="vrb-Hh-xP6"/>
+                                            <constraint firstItem="8Fk-72-PoB" firstAttribute="top" secondItem="LWc-IC-jRj" secondAttribute="bottom" id="z2N-4P-pST"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="72B-Io-say" firstAttribute="top" secondItem="zDr-oh-U6k" secondAttribute="top" id="6tK-dr-lUv"/>
+                                    <constraint firstAttribute="bottom" secondItem="72B-Io-say" secondAttribute="bottom" id="lkN-VS-wGj"/>
+                                    <constraint firstAttribute="trailing" secondItem="72B-Io-say" secondAttribute="trailing" id="mgt-lw-ncM"/>
+                                    <constraint firstItem="72B-Io-say" firstAttribute="leading" secondItem="zDr-oh-U6k" secondAttribute="leading" id="s4o-Hf-rW6"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.88235294119999996" green="0.74509803919999995" blue="0.90588235289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3X5-u9-c9h" firstAttribute="trailing" secondItem="zDr-oh-U6k" secondAttribute="trailing" id="4o0-Ga-PwJ"/>
+                            <constraint firstItem="zDr-oh-U6k" firstAttribute="top" secondItem="3X5-u9-c9h" secondAttribute="top" id="7EK-oE-Ply"/>
+                            <constraint firstItem="zDr-oh-U6k" firstAttribute="leading" secondItem="3X5-u9-c9h" secondAttribute="leading" id="9ya-zc-SEp"/>
+                            <constraint firstItem="3X5-u9-c9h" firstAttribute="bottom" secondItem="zDr-oh-U6k" secondAttribute="bottom" id="UZ9-3h-QoR"/>
+                            <constraint firstItem="72B-Io-say" firstAttribute="width" secondItem="YXN-Kp-6C2" secondAttribute="width" id="yhw-tL-6yJ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="3X5-u9-c9h"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Snipers" id="wxa-h5-v4T"/>
+                    <size key="freeformSize" width="375" height="1000"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pj9-uY-Ln2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3697" y="-1649"/>
+        </scene>
+        <!--Shotguns-->
+        <scene sceneID="8Cc-dF-e5I">
+            <objects>
+                <viewController id="AUn-or-2px" customClass="ShotgunsScrollViewController" customModule="JAMM" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MJ3-Sp-UDa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sTr-sU-zOe">
+                                <rect key="frame" x="0.0" y="64" width="375" height="201"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="201" id="Qba-Ah-vDT"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pzp-sU-RV8">
+                                <rect key="frame" x="0.0" y="265" width="375" height="201"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="201" id="euu-RG-BAQ"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0sK-Ya-Rlc">
+                                <rect key="frame" x="0.0" y="466" width="375" height="201"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="201" id="wsB-Cj-F21"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pum Shotgun" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nmC-gB-X0S">
+                                <rect key="frame" x="101" y="229" width="174.5" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Heavy Shotgun" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DzT-8y-a2Z">
+                                <rect key="frame" x="89" y="430" width="198" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tactical Shotgun" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="87v-dV-otd">
+                                <rect key="frame" x="81" y="631" width="214" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.88235294119999996" green="0.74509803919999995" blue="0.90588235289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="nmC-gB-X0S" firstAttribute="centerX" secondItem="sTr-sU-zOe" secondAttribute="centerX" id="1F3-MV-i3W"/>
+                            <constraint firstItem="pzp-sU-RV8" firstAttribute="leading" secondItem="edr-IK-BpL" secondAttribute="leading" id="9Yh-0L-pZW"/>
+                            <constraint firstItem="87v-dV-otd" firstAttribute="centerX" secondItem="0sK-Ya-Rlc" secondAttribute="centerX" id="GK5-Xv-avM"/>
+                            <constraint firstItem="0sK-Ya-Rlc" firstAttribute="top" secondItem="pzp-sU-RV8" secondAttribute="bottom" id="HxK-Yx-MMw"/>
+                            <constraint firstItem="DzT-8y-a2Z" firstAttribute="centerX" secondItem="pzp-sU-RV8" secondAttribute="centerX" id="IxR-Rl-Vg5"/>
+                            <constraint firstItem="sTr-sU-zOe" firstAttribute="leading" secondItem="edr-IK-BpL" secondAttribute="leading" id="Nnq-0U-qis"/>
+                            <constraint firstItem="pzp-sU-RV8" firstAttribute="top" secondItem="nmC-gB-X0S" secondAttribute="bottom" id="WFP-Qq-Yqd"/>
+                            <constraint firstItem="0sK-Ya-Rlc" firstAttribute="top" secondItem="DzT-8y-a2Z" secondAttribute="bottom" id="ZEG-AW-tv6"/>
+                            <constraint firstItem="0sK-Ya-Rlc" firstAttribute="leading" secondItem="edr-IK-BpL" secondAttribute="leading" id="cqp-fc-2c9"/>
+                            <constraint firstItem="edr-IK-BpL" firstAttribute="trailing" secondItem="pzp-sU-RV8" secondAttribute="trailing" id="jKx-ml-NtK"/>
+                            <constraint firstItem="pzp-sU-RV8" firstAttribute="top" secondItem="sTr-sU-zOe" secondAttribute="bottom" id="jVr-kK-yjj"/>
+                            <constraint firstItem="sTr-sU-zOe" firstAttribute="top" secondItem="edr-IK-BpL" secondAttribute="top" id="mIy-za-QPj"/>
+                            <constraint firstItem="edr-IK-BpL" firstAttribute="trailing" secondItem="sTr-sU-zOe" secondAttribute="trailing" id="nLg-BR-yc3"/>
+                            <constraint firstItem="edr-IK-BpL" firstAttribute="bottom" secondItem="87v-dV-otd" secondAttribute="bottom" id="vAo-0t-Hae"/>
+                            <constraint firstItem="edr-IK-BpL" firstAttribute="trailing" secondItem="0sK-Ya-Rlc" secondAttribute="trailing" id="wLl-LB-zvS"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="edr-IK-BpL"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Shotguns" id="bRR-kR-H8N"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HY0-8G-dnL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2940" y="-1800"/>
         </scene>
         <!--Assault Rifles-->
         <scene sceneID="gMr-EN-x55">
@@ -576,7 +1072,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cc0-zM-Plw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2998" y="-559"/>
+            <point key="canvasLocation" x="2242" y="-1650"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="WeF-dc-iME">
@@ -599,14 +1095,14 @@
         </scene>
     </scenes>
     <resources>
-        <image name="ar_burst" width="68" height="68"/>
-        <image name="ar_m16" width="68" height="68"/>
-        <image name="ar_scar" width="68" height="68"/>
-        <image name="ar_scoped" width="68" height="68"/>
+        <image name="ar_burst" width="183" height="183"/>
+        <image name="ar_m16" width="183" height="183"/>
+        <image name="ar_scar" width="183" height="183"/>
+        <image name="ar_scoped" width="183" height="183"/>
         <image name="backpack-icon" width="25" height="25"/>
-        <image name="fnmapseason4" width="269" height="269"/>
+        <image name="fnmapseason4" width="539" height="539"/>
         <image name="gunicon" width="25" height="25"/>
-        <image name="logo" width="198" height="153"/>
+        <image name="logo" width="528" height="408"/>
         <image name="marker" width="213" height="379"/>
         <image name="menu_lines" width="25" height="25"/>
         <image name="navbardots" width="25" height="25"/>

@@ -18,6 +18,12 @@
 		F53C48B8209D88260074F24A /* WeaponCompareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53C48B7209D88260074F24A /* WeaponCompareViewController.swift */; };
 		F53C48BB209D890B0074F24A /* JumpRouletteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53C48BA209D890B0074F24A /* JumpRouletteViewController.swift */; };
 		F53C48BD209EB9F40074F24A /* WeaponClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53C48BC209EB9F40074F24A /* WeaponClass.swift */; };
+		F53C48BF209EE5A30074F24A /* ShotgunsScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53C48BE209EE5A30074F24A /* ShotgunsScrollViewController.swift */; };
+		F53C48C1209EE8F60074F24A /* SnipersScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53C48C0209EE8F60074F24A /* SnipersScrollViewController.swift */; };
+		F53C48C3209EE9410074F24A /* SMGScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53C48C2209EE9410074F24A /* SMGScrollViewController.swift */; };
+		F53C48C5209EE95F0074F24A /* MachineGunsScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53C48C4209EE95F0074F24A /* MachineGunsScrollViewController.swift */; };
+		F53C48C7209EE9820074F24A /* PistolsScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53C48C6209EE9820074F24A /* PistolsScrollViewController.swift */; };
+		F53C48C9209EE9A00074F24A /* ExplosivesScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53C48C8209EE9A00074F24A /* ExplosivesScrollViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +40,12 @@
 		F53C48B7209D88260074F24A /* WeaponCompareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponCompareViewController.swift; sourceTree = "<group>"; };
 		F53C48BA209D890B0074F24A /* JumpRouletteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpRouletteViewController.swift; sourceTree = "<group>"; };
 		F53C48BC209EB9F40074F24A /* WeaponClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponClass.swift; sourceTree = "<group>"; };
+		F53C48BE209EE5A30074F24A /* ShotgunsScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShotgunsScrollViewController.swift; sourceTree = "<group>"; };
+		F53C48C0209EE8F60074F24A /* SnipersScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnipersScrollViewController.swift; sourceTree = "<group>"; };
+		F53C48C2209EE9410074F24A /* SMGScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMGScrollViewController.swift; sourceTree = "<group>"; };
+		F53C48C4209EE95F0074F24A /* MachineGunsScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachineGunsScrollViewController.swift; sourceTree = "<group>"; };
+		F53C48C6209EE9820074F24A /* PistolsScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PistolsScrollViewController.swift; sourceTree = "<group>"; };
+		F53C48C8209EE9A00074F24A /* ExplosivesScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplosivesScrollViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +97,12 @@
 			children = (
 				F53C48B1209D7DED0074F24A /* Equipment_lvl_1_ViewController.swift */,
 				F53C48B4209D83630074F24A /* AssaultRiflesScrollViewController.swift */,
+				F53C48BE209EE5A30074F24A /* ShotgunsScrollViewController.swift */,
+				F53C48C0209EE8F60074F24A /* SnipersScrollViewController.swift */,
+				F53C48C2209EE9410074F24A /* SMGScrollViewController.swift */,
+				F53C48C4209EE95F0074F24A /* MachineGunsScrollViewController.swift */,
+				F53C48C6209EE9820074F24A /* PistolsScrollViewController.swift */,
+				F53C48C8209EE9A00074F24A /* ExplosivesScrollViewController.swift */,
 				F53C48BC209EB9F40074F24A /* WeaponClass.swift */,
 			);
 			path = Equipment;
@@ -181,10 +199,16 @@
 				F53C489E209D709A0074F24A /* AppDelegate.swift in Sources */,
 				F53C48B8209D88260074F24A /* WeaponCompareViewController.swift in Sources */,
 				F53C48B5209D83630074F24A /* AssaultRiflesScrollViewController.swift in Sources */,
+				F53C48C5209EE95F0074F24A /* MachineGunsScrollViewController.swift in Sources */,
 				F53C48BD209EB9F40074F24A /* WeaponClass.swift in Sources */,
+				F53C48BF209EE5A30074F24A /* ShotgunsScrollViewController.swift in Sources */,
+				F53C48C9209EE9A00074F24A /* ExplosivesScrollViewController.swift in Sources */,
+				F53C48C1209EE8F60074F24A /* SnipersScrollViewController.swift in Sources */,
 				F53C48B2209D7DED0074F24A /* Equipment_lvl_1_ViewController.swift in Sources */,
 				F53C48BB209D890B0074F24A /* JumpRouletteViewController.swift in Sources */,
 				F53C48B0209D74E20074F24A /* UIButtonExtension.swift in Sources */,
+				F53C48C7209EE9820074F24A /* PistolsScrollViewController.swift in Sources */,
+				F53C48C3209EE9410074F24A /* SMGScrollViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

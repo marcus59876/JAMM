@@ -920,6 +920,9 @@
                                     <constraint firstAttribute="height" constant="201" id="Qba-Ah-vDT"/>
                                 </constraints>
                                 <state key="normal" image="sg_pump"/>
+                                <connections>
+                                    <action selector="pumpButtonPressed:" destination="AUn-or-2px" eventType="touchUpInside" id="e6n-q0-zhv"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pzp-sU-RV8">
                                 <rect key="frame" x="0.0" y="265" width="375" height="201"/>
@@ -927,6 +930,9 @@
                                     <constraint firstAttribute="height" constant="201" id="euu-RG-BAQ"/>
                                 </constraints>
                                 <state key="normal" image="sg_heavy"/>
+                                <connections>
+                                    <action selector="heavyButtonPressed:" destination="AUn-or-2px" eventType="touchUpInside" id="pH1-69-HYK"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0sK-Ya-Rlc">
                                 <rect key="frame" x="0.0" y="466" width="375" height="201"/>
@@ -934,6 +940,9 @@
                                     <constraint firstAttribute="height" constant="201" id="wsB-Cj-F21"/>
                                 </constraints>
                                 <state key="normal" image="sg_tatical"/>
+                                <connections>
+                                    <action selector="tacticalButtonPressed:" destination="AUn-or-2px" eventType="touchUpInside" id="KNd-qh-fj9"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pum Shotgun" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nmC-gB-X0S">
                                 <rect key="frame" x="101" y="229" width="174.5" height="36"/>

@@ -42,6 +42,7 @@ class AssaultRiflesScrollViewController: UIViewController {
     @IBAction func BurstButtonPressed(_ sender: Any) {impact.impactOccurred()}
     @IBAction func ScopedButtonPressed(_ sender: Any) {impact.impactOccurred()}
     @IBAction func ScarButtonPressed(_ sender: Any) {impact.impactOccurred()}
+    
     @IBOutlet weak var M16: UIButton!
     @IBOutlet weak var Burst: UIButton!
     @IBOutlet weak var Scoped: UIButton!

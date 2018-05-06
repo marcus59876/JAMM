@@ -10,6 +10,8 @@ import UIKit
 
 class ShotgunsScrollViewController: UIViewController {
     
+    let impact = UIImpactFeedbackGenerator(style: .heavy)    //Allows for a vibration when button is clicked
+    
     func  setupbuttons(x: UIButton){
         x.layer.borderColor = UIColor.gray.cgColor
         x.layer.borderWidth = 0.2
@@ -33,9 +35,12 @@ class ShotgunsScrollViewController: UIViewController {
         setupbuttons(x: heavy)
         setupbuttons(x: tactical)
     }
+    
+    @IBAction func pumpButtonPressed(_ sender: Any) {impact.impactOccurred()}
+    @IBAction func heavyButtonPressed(_ sender: Any) {impact.impactOccurred()}
+    @IBAction func tacticalButtonPressed(_ sender: Any) {impact.impactOccurred()}
+    
     @IBOutlet weak var pump: UIButton!
-    
     @IBOutlet weak var heavy: UIButton!
-    
     @IBOutlet weak var tactical: UIButton!
 }

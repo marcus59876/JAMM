@@ -802,6 +802,9 @@
                                                     <constraint firstAttribute="height" constant="201" id="LMf-yV-NMh"/>
                                                 </constraints>
                                                 <state key="normal" image="snipe_bolt"/>
+                                                <connections>
+                                                    <action selector="boltButtonPressed:" destination="ngz-v9-Zi6" eventType="touchUpInside" id="7jv-tR-EbF"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LWc-IC-jRj">
                                                 <rect key="frame" x="0.0" y="201" width="375" height="201"/>
@@ -809,6 +812,9 @@
                                                     <constraint firstAttribute="height" constant="201" id="tyx-ME-uQh"/>
                                                 </constraints>
                                                 <state key="normal" image="snipe_semiauto"/>
+                                                <connections>
+                                                    <action selector="semiButtonPressed:" destination="ngz-v9-Zi6" eventType="touchUpInside" id="HXe-l4-jUm"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Fk-72-PoB">
                                                 <rect key="frame" x="0.0" y="402" width="375" height="201"/>
@@ -816,6 +822,9 @@
                                                     <constraint firstAttribute="height" constant="201" id="e99-Ne-VIX"/>
                                                 </constraints>
                                                 <state key="normal" image="snipe_hunting"/>
+                                                <connections>
+                                                    <action selector="huntButtonPressed:" destination="ngz-v9-Zi6" eventType="touchUpInside" id="WNv-Xa-ZTB"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Zq-9Y-Frz">
                                                 <rect key="frame" x="0.0" y="603" width="375" height="201"/>
@@ -823,6 +832,9 @@
                                                     <constraint firstAttribute="height" constant="201" id="HBb-Uz-N5I"/>
                                                 </constraints>
                                                 <state key="normal" image="snipe_cross"/>
+                                                <connections>
+                                                    <action selector="crossButtonPressed:" destination="ngz-v9-Zi6" eventType="touchUpInside" id="O2o-aU-c7W"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bolt-Action Sniper" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dy4-1i-Ae0">
                                                 <rect key="frame" x="70" y="165" width="236" height="36"/>

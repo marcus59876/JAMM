@@ -10,6 +10,8 @@ import UIKit
 
 class SnipersScrollViewController: UIViewController {
     
+    let impact = UIImpactFeedbackGenerator(style: .heavy)    //Allows for a vibration when button is clicked
+    
     func  setupbuttons(x: UIButton){
         x.layer.borderColor = UIColor.gray.cgColor
         x.layer.borderWidth = 0.2
@@ -36,8 +38,13 @@ class SnipersScrollViewController: UIViewController {
         setupbuttons(x: hunt)
         setupbuttons(x: cross)
     }
-    @IBOutlet weak var bolt: UIButton!
     
+    @IBAction func boltButtonPressed(_ sender: Any) {impact.impactOccurred()}
+    @IBAction func semiButtonPressed(_ sender: Any) {impact.impactOccurred()}
+    @IBAction func huntButtonPressed(_ sender: Any) {impact.impactOccurred()}
+    @IBAction func crossButtonPressed(_ sender: Any) {impact.impactOccurred()}
+    
+    @IBOutlet weak var bolt: UIButton!
     @IBOutlet weak var semi: UIButton!
     @IBOutlet weak var hunt: UIButton!
     @IBOutlet weak var cross: UIButton!

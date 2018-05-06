@@ -870,6 +870,12 @@
                     </view>
                     <navigationItem key="navigationItem" title="Snipers" id="wxa-h5-v4T"/>
                     <size key="freeformSize" width="375" height="1000"/>
+                    <connections>
+                        <outlet property="bolt" destination="r4q-Vm-kcs" id="d93-Fe-5bW"/>
+                        <outlet property="cross" destination="4Zq-9Y-Frz" id="0yj-cQ-Q18"/>
+                        <outlet property="hunt" destination="8Fk-72-PoB" id="h1p-HS-QNI"/>
+                        <outlet property="semi" destination="LWc-IC-jRj" id="tfW-u1-RWd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pj9-uY-Ln2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -944,10 +950,15 @@
                         <viewLayoutGuide key="safeArea" id="edr-IK-BpL"/>
                     </view>
                     <navigationItem key="navigationItem" title="Shotguns" id="bRR-kR-H8N"/>
+                    <connections>
+                        <outlet property="heavy" destination="pzp-sU-RV8" id="J1y-ED-cT1"/>
+                        <outlet property="pump" destination="sTr-sU-zOe" id="U3j-RT-TBP"/>
+                        <outlet property="tactical" destination="0sK-Ya-Rlc" id="xIe-aF-pI9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HY0-8G-dnL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2940" y="-1800"/>
+            <point key="canvasLocation" x="2882" y="-1801"/>
         </scene>
         <!--Assault Rifles-->
         <scene sceneID="gMr-EN-x55">

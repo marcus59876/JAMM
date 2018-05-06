@@ -492,6 +492,9 @@
                                     <constraint firstAttribute="height" constant="201" id="tOM-0h-xPH"/>
                                 </constraints>
                                 <state key="normal" image="exp_grenade"/>
+                                <connections>
+                                    <action selector="grenadeButtonPressed:" destination="rtL-fD-dZR" eventType="touchUpInside" id="9zc-z7-Sge"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iJy-dN-Ps6">
                                 <rect key="frame" x="0.0" y="265" width="375" height="201"/>
@@ -499,6 +502,9 @@
                                     <constraint firstAttribute="height" constant="201" id="AMl-If-a67"/>
                                 </constraints>
                                 <state key="normal" image="exp_rpg"/>
+                                <connections>
+                                    <action selector="rpgButtonPressed:" destination="rtL-fD-dZR" eventType="touchUpInside" id="yAY-d1-mno"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Grenade Launcher" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mqO-WA-ByE">
                                 <rect key="frame" x="68.5" y="229" width="238.5" height="36"/>

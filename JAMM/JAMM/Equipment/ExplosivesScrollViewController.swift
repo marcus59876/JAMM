@@ -10,6 +10,8 @@ import UIKit
 
 class ExplosivesScrollViewController: UIViewController {
     
+    let impact = UIImpactFeedbackGenerator(style: .heavy)    //Allows for a vibration when button is clicked
+    
     func  setupbuttons(x: UIButton){
         x.layer.borderColor = UIColor.gray.cgColor
         x.layer.borderWidth = 0.2
@@ -33,6 +35,9 @@ class ExplosivesScrollViewController: UIViewController {
         setupbuttons(x: grenade)
         setupbuttons(x: rpg)
     }
+    
+    @IBAction func grenadeButtonPressed(_ sender: Any) {impact.impactOccurred()}
+    @IBAction func rpgButtonPressed(_ sender: Any) {impact.impactOccurred()}
     
     @IBOutlet weak var grenade: UIButton!
     @IBOutlet weak var rpg: UIButton!

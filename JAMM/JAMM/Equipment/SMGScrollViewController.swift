@@ -9,6 +9,8 @@
 import UIKit
 
 class SMGScrollViewController: UIViewController {
+    
+    let impact = UIImpactFeedbackGenerator(style: .heavy)    //Allows for a vibration when button is clicked
 
     func  setupbuttons(x: UIButton){
         x.layer.borderColor = UIColor.gray.cgColor
@@ -33,6 +35,9 @@ class SMGScrollViewController: UIViewController {
         setupbuttons(x: tactical)
         setupbuttons(x: silence)
     }
+    
+    @IBAction func tacticalButtonPressed(_ sender: Any) {impact.impactOccurred()}
+    @IBAction func silenceButtonPressed(_ sender: Any) {impact.impactOccurred()}
     
     @IBOutlet weak var tactical: UIButton!
     @IBOutlet weak var silence: UIButton!

@@ -10,6 +10,8 @@ import UIKit
 
 class MachineGunsScrollViewController: UIViewController {
     
+    let impact = UIImpactFeedbackGenerator(style: .heavy)    //Allows for a vibration when button is clicked
+    
     func  setupbuttons(x: UIButton){
         x.layer.borderColor = UIColor.gray.cgColor
         x.layer.borderWidth = 0.2
@@ -33,6 +35,9 @@ class MachineGunsScrollViewController: UIViewController {
         setupbuttons(x: light)
         setupbuttons(x: mini)
     }
+    
+    @IBAction func lightButtonPressed(_ sender: Any) {impact.impactOccurred()}
+    @IBAction func miniButtonPressed(_ sender: Any) {impact.impactOccurred()}
     
     @IBOutlet weak var light: UIButton!
     @IBOutlet weak var mini: UIButton!

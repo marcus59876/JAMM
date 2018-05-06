@@ -676,6 +676,9 @@
                                     <constraint firstAttribute="height" constant="201" id="Zjb-sr-AiM"/>
                                 </constraints>
                                 <state key="normal" image="machienegun_light"/>
+                                <connections>
+                                    <action selector="lightButtonPressed:" destination="33Q-Pb-sr8" eventType="touchUpInside" id="hE3-KP-sYN"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m5E-U6-mbU">
                                 <rect key="frame" x="0.0" y="265" width="375" height="201"/>
@@ -683,6 +686,9 @@
                                     <constraint firstAttribute="height" constant="201" id="qnK-AL-IPM"/>
                                 </constraints>
                                 <state key="normal" image="machienegun_minigun"/>
+                                <connections>
+                                    <action selector="miniButtonPressed:" destination="33Q-Pb-sr8" eventType="touchUpInside" id="249-cq-hj4"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Light Machine Gun" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LbG-EN-jcb">
                                 <rect key="frame" x="66" y="229" width="243" height="36"/>
@@ -736,6 +742,9 @@
                                     <constraint firstAttribute="height" constant="201" id="HZp-2s-LCU"/>
                                 </constraints>
                                 <state key="normal" image="smg_tatical"/>
+                                <connections>
+                                    <action selector="tacticalButtonPressed:" destination="zCj-Dd-UkA" eventType="touchUpInside" id="ljJ-ZU-Rc1"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ikX-rc-UOT">
                                 <rect key="frame" x="0.0" y="265" width="375" height="201"/>
@@ -743,6 +752,9 @@
                                     <constraint firstAttribute="height" constant="201" id="fmp-NJ-dCQ"/>
                                 </constraints>
                                 <state key="normal" image="smg_scilenced"/>
+                                <connections>
+                                    <action selector="silenceButtonPressed:" destination="zCj-Dd-UkA" eventType="touchUpInside" id="lKH-9Z-XHg"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tactical SMG" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MI5-c5-91g">
                                 <rect key="frame" x="103.5" y="229" width="169.5" height="36"/>

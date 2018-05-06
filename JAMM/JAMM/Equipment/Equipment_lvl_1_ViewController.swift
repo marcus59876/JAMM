@@ -10,6 +10,8 @@ import UIKit
 
 class Equipment_lvl_1_ViewController: UIViewController {
     
+    let impact = UIImpactFeedbackGenerator(style: .heavy)    //Allows for a vibration when button is clicked
+    
     //Postcondition: Makes shadows UIButtons and allows for a highlight when clicked/////////////////
     func make_shadows (x: UIButton) {
         x.layer.shadowColor = UIColor.black.cgColor
@@ -44,6 +46,14 @@ class Equipment_lvl_1_ViewController: UIViewController {
         make_shadows(x: ExplosiveButton) 
     }
     //////////////////////////////////////////////////////////////////////////////////////////////////
+    
+    @IBAction func AssaultRifleButtonPressed(_ sender: Any) {impact.impactOccurred()}
+    @IBAction func ShotgunButtonPressed(_ sender: Any) {impact.impactOccurred()}
+    @IBAction func SniperButtonPressed(_ sender: Any) {impact.impactOccurred()}
+    @IBAction func SMGButtonPressed(_ sender: Any) {impact.impactOccurred()}
+    @IBAction func MachineGunButtonPressed(_ sender: Any) {impact.impactOccurred()}
+    @IBAction func PistolButtonPressed(_ sender: Any) {impact.impactOccurred()}
+    @IBAction func ExplosiveButtonPressed(_ sender: Any) {impact.impactOccurred()}
     @IBOutlet weak var AssaultRifleButton: UIButton!
     @IBOutlet weak var ShotgunButton: UIButton!
     @IBOutlet weak var SniperButton: UIButton!

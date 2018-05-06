@@ -314,6 +314,7 @@
                                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
+                                                    <action selector="AssaultRifleButtonPressed:" destination="GCg-zx-NUx" eventType="touchUpInside" id="GNi-Jq-ZHh"/>
                                                     <segue destination="ys1-Hw-DCK" kind="show" id="B0Z-NW-E4G"/>
                                                 </connections>
                                             </button>
@@ -328,6 +329,7 @@
                                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
+                                                    <action selector="ShotgunButtonPressed:" destination="GCg-zx-NUx" eventType="touchUpInside" id="5pn-aU-kNh"/>
                                                     <segue destination="AUn-or-2px" kind="show" id="iZd-0C-eWE"/>
                                                 </connections>
                                             </button>
@@ -342,6 +344,7 @@
                                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
+                                                    <action selector="SniperButtonPressed:" destination="GCg-zx-NUx" eventType="touchUpInside" id="m7t-ZQ-Hwd"/>
                                                     <segue destination="ngz-v9-Zi6" kind="show" id="1Vt-Ff-7Xx"/>
                                                 </connections>
                                             </button>
@@ -356,6 +359,7 @@
                                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
+                                                    <action selector="MachineGunButtonPressed:" destination="GCg-zx-NUx" eventType="touchUpInside" id="2PW-qN-Klp"/>
                                                     <segue destination="33Q-Pb-sr8" kind="show" id="qBi-cJ-H7Z"/>
                                                 </connections>
                                             </button>
@@ -370,6 +374,7 @@
                                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
+                                                    <action selector="SMGButtonPressed:" destination="GCg-zx-NUx" eventType="touchUpInside" id="MDV-sZ-GsS"/>
                                                     <segue destination="zCj-Dd-UkA" kind="show" id="Jee-LE-l87"/>
                                                 </connections>
                                             </button>
@@ -384,6 +389,7 @@
                                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
+                                                    <action selector="ExplosiveButtonPressed:" destination="GCg-zx-NUx" eventType="touchUpInside" id="4ms-g6-xjq"/>
                                                     <segue destination="rtL-fD-dZR" kind="show" id="w9a-W9-b7f"/>
                                                 </connections>
                                             </button>
@@ -398,6 +404,7 @@
                                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
                                                 <connections>
+                                                    <action selector="PistolButtonPressed:" destination="GCg-zx-NUx" eventType="touchUpInside" id="Qwv-yl-8TQ"/>
                                                     <segue destination="WQT-7b-qKp" kind="show" id="2xE-gU-MCp"/>
                                                 </connections>
                                             </button>

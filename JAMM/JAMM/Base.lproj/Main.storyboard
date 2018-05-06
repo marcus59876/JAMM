@@ -235,7 +235,7 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CCj-hc-ucC">
                                 <rect key="frame" x="0.0" y="131" width="375" height="402"/>
-                                <state key="normal" backgroundImage="fortnite_map"/>
+                                <state key="normal" backgroundImage="fnmapseason4"/>
                                 <connections>
                                     <action selector="MapPressed:" destination="f4I-HW-tti" eventType="touchUpInside" id="8eE-Hv-lor"/>
                                 </connections>
@@ -598,7 +598,7 @@
         <image name="ar_scar" width="68" height="68"/>
         <image name="ar_scoped" width="68" height="68"/>
         <image name="backpack-icon" width="25" height="25"/>
-        <image name="fortnite_map" width="360" height="360"/>
+        <image name="fnmapseason4" width="269" height="269"/>
         <image name="gunicon" width="25" height="25"/>
         <image name="logo" width="198" height="153"/>
         <image name="menu_lines" width="25" height="25"/>

@@ -16,6 +16,12 @@ class WeaponCompareViewController: UIViewController {
         setupUI()
     }
     func setupUI() {
+        let title = UILabel()
+        title.font = UIFont(name: "HelveticaNeue-Bold", size: 20.0)
+        title.text = "Weapon Compare"
+        title.textColor = UIColor(red: 1, green: 1, blue: 1, alpha: 1)
+        self.navigationItem.titleView = title
+        self.navigationController?.navigationBar.tintColor = UIColor.white
         
     }
 

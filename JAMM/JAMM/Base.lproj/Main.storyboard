@@ -522,6 +522,10 @@
                         <viewLayoutGuide key="safeArea" id="A0S-k7-uVP"/>
                     </view>
                     <navigationItem key="navigationItem" title="Explosives" id="mzY-3u-n70"/>
+                    <connections>
+                        <outlet property="grenade" destination="pS1-th-a4y" id="lVr-Hm-8Pq"/>
+                        <outlet property="rpg" destination="iJy-dN-Ps6" id="BSR-gs-r6g"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kbs-IA-hIr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -640,6 +644,12 @@
                     </view>
                     <navigationItem key="navigationItem" title="Pistols" id="Lb6-R3-epS"/>
                     <size key="freeformSize" width="375" height="1000"/>
+                    <connections>
+                        <outlet property="basic" destination="o7i-xI-Ztg" id="vMt-AL-Ath"/>
+                        <outlet property="hand" destination="gEF-tu-v9h" id="MfI-al-plP"/>
+                        <outlet property="revolve" destination="eex-ro-3c7" id="nKV-dh-FDN"/>
+                        <outlet property="silence" destination="Crh-fU-Wwv" id="qwM-4a-1nq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qr2-Uy-eAZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -696,6 +706,10 @@
                         <viewLayoutGuide key="safeArea" id="W9t-Rl-O6r"/>
                     </view>
                     <navigationItem key="navigationItem" title="Machine Guns" id="vca-eG-dvi"/>
+                    <connections>
+                        <outlet property="light" destination="a79-vT-ijQ" id="bG7-3I-3z4"/>
+                        <outlet property="mini" destination="m5E-U6-mbU" id="d5q-an-jTx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qzd-Si-sjc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -752,6 +766,10 @@
                         <viewLayoutGuide key="safeArea" id="nAJ-8w-gAA"/>
                     </view>
                     <navigationItem key="navigationItem" title="SMGS" id="gTg-m3-Hxk"/>
+                    <connections>
+                        <outlet property="silence" destination="ikX-rc-UOT" id="GuE-Ul-nUP"/>
+                        <outlet property="tactical" destination="TB5-SI-kzn" id="gqA-47-UnR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BpV-6B-Spp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -923,7 +941,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tactical Shotgun" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="87v-dV-otd">
-                                <rect key="frame" x="81" y="631" width="214" height="36"/>
+                                <rect key="frame" x="80" y="631" width="214" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -932,6 +950,7 @@
                         <color key="backgroundColor" red="0.88235294119999996" green="0.74509803919999995" blue="0.90588235289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="nmC-gB-X0S" firstAttribute="centerX" secondItem="sTr-sU-zOe" secondAttribute="centerX" id="1F3-MV-i3W"/>
+                            <constraint firstItem="87v-dV-otd" firstAttribute="top" secondItem="pzp-sU-RV8" secondAttribute="bottom" constant="165" id="9TH-Vf-Hzi"/>
                             <constraint firstItem="pzp-sU-RV8" firstAttribute="leading" secondItem="edr-IK-BpL" secondAttribute="leading" id="9Yh-0L-pZW"/>
                             <constraint firstItem="87v-dV-otd" firstAttribute="centerX" secondItem="0sK-Ya-Rlc" secondAttribute="centerX" id="GK5-Xv-avM"/>
                             <constraint firstItem="0sK-Ya-Rlc" firstAttribute="top" secondItem="pzp-sU-RV8" secondAttribute="bottom" id="HxK-Yx-MMw"/>
@@ -944,7 +963,6 @@
                             <constraint firstItem="pzp-sU-RV8" firstAttribute="top" secondItem="sTr-sU-zOe" secondAttribute="bottom" id="jVr-kK-yjj"/>
                             <constraint firstItem="sTr-sU-zOe" firstAttribute="top" secondItem="edr-IK-BpL" secondAttribute="top" id="mIy-za-QPj"/>
                             <constraint firstItem="edr-IK-BpL" firstAttribute="trailing" secondItem="sTr-sU-zOe" secondAttribute="trailing" id="nLg-BR-yc3"/>
-                            <constraint firstItem="edr-IK-BpL" firstAttribute="bottom" secondItem="87v-dV-otd" secondAttribute="bottom" id="vAo-0t-Hae"/>
                             <constraint firstItem="edr-IK-BpL" firstAttribute="trailing" secondItem="0sK-Ya-Rlc" secondAttribute="trailing" id="wLl-LB-zvS"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="edr-IK-BpL"/>

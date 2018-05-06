@@ -9,6 +9,12 @@
 import UIKit
 
 class ExplosivesScrollViewController: UIViewController {
+    
+    func  setupbuttons(x: UIButton){
+        x.layer.borderColor = UIColor.gray.cgColor
+        x.layer.borderWidth = 0.2
+        x.showsTouchWhenHighlighted = true
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,7 +23,17 @@ class ExplosivesScrollViewController: UIViewController {
     }
 
     func setupUI() {
+        let title = UILabel()
+        title.font = UIFont(name: "HelveticaNeue-Bold", size: 20.0)
+        title.text = "Explosives"
+        title.textColor = UIColor(red: 1, green: 1, blue: 1, alpha: 1)
+        self.navigationItem.titleView = title
+        self.navigationController?.navigationBar.tintColor = UIColor.white
         
+        setupbuttons(x: grenade)
+        setupbuttons(x: rpg)
     }
-
+    
+    @IBOutlet weak var grenade: UIButton!
+    @IBOutlet weak var rpg: UIButton!
 }

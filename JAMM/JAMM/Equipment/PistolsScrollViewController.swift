@@ -9,6 +9,12 @@
 import UIKit
 
 class PistolsScrollViewController: UIViewController {
+    
+    func  setupbuttons(x: UIButton){
+        x.layer.borderColor = UIColor.gray.cgColor
+        x.layer.borderWidth = 0.2
+        x.showsTouchWhenHighlighted = true
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,7 +23,21 @@ class PistolsScrollViewController: UIViewController {
     }
 
     func setupUI() {
+        let title = UILabel()
+        title.font = UIFont(name: "HelveticaNeue-Bold", size: 20.0)
+        title.text = "Pistols"
+        title.textColor = UIColor(red: 1, green: 1, blue: 1, alpha: 1)
+        self.navigationItem.titleView = title
+        self.navigationController?.navigationBar.tintColor = UIColor.white
         
+        setupbuttons(x: basic)
+        setupbuttons(x: hand)
+        setupbuttons(x: revolve)
+        setupbuttons(x: silence)
     }
-
+    
+    @IBOutlet weak var basic: UIButton!
+    @IBOutlet weak var hand: UIButton!
+    @IBOutlet weak var revolve: UIButton!
+    @IBOutlet weak var silence: UIButton!
 }

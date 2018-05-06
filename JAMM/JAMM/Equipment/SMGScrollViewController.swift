@@ -10,6 +10,12 @@ import UIKit
 
 class SMGScrollViewController: UIViewController {
 
+    func  setupbuttons(x: UIButton){
+        x.layer.borderColor = UIColor.gray.cgColor
+        x.layer.borderWidth = 0.2
+        x.showsTouchWhenHighlighted = true
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -23,5 +29,11 @@ class SMGScrollViewController: UIViewController {
         title.textColor = UIColor(red: 1, green: 1, blue: 1, alpha: 1)
         self.navigationItem.titleView = title
         self.navigationController?.navigationBar.tintColor = UIColor.white
+        
+        setupbuttons(x: tactical)
+        setupbuttons(x: silence)
     }
+    
+    @IBOutlet weak var tactical: UIButton!
+    @IBOutlet weak var silence: UIButton!
 }

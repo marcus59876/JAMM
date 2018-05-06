@@ -558,6 +558,9 @@
                                                     <constraint firstAttribute="height" constant="201" id="V8r-DA-hnh"/>
                                                 </constraints>
                                                 <state key="normal" image="pistol_basic"/>
+                                                <connections>
+                                                    <action selector="basicButtonPressed:" destination="WQT-7b-qKp" eventType="touchUpInside" id="gq7-8p-yOk"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gEF-tu-v9h">
                                                 <rect key="frame" x="0.0" y="201" width="375" height="201"/>
@@ -565,6 +568,9 @@
                                                     <constraint firstAttribute="height" constant="201" id="xjt-IK-Lkc"/>
                                                 </constraints>
                                                 <state key="normal" image="pistol_handcannon"/>
+                                                <connections>
+                                                    <action selector="handButtonPressed:" destination="WQT-7b-qKp" eventType="touchUpInside" id="rdC-aN-KZH"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eex-ro-3c7">
                                                 <rect key="frame" x="0.0" y="402" width="375" height="201"/>
@@ -572,6 +578,9 @@
                                                     <constraint firstAttribute="height" constant="201" id="g14-9G-aRd"/>
                                                 </constraints>
                                                 <state key="normal" image="pistol_revolver"/>
+                                                <connections>
+                                                    <action selector="revolveButtonPressed:" destination="WQT-7b-qKp" eventType="touchUpInside" id="Jkr-q4-4Ho"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Crh-fU-Wwv">
                                                 <rect key="frame" x="0.0" y="603" width="375" height="201"/>
@@ -579,6 +588,9 @@
                                                     <constraint firstAttribute="height" constant="201" id="32A-1h-Uly"/>
                                                 </constraints>
                                                 <state key="normal" image="pistol_scilenced"/>
+                                                <connections>
+                                                    <action selector="silenceButtonPressed:" destination="WQT-7b-qKp" eventType="touchUpInside" id="HoW-GY-OMc"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Basic Pistol" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vsQ-TH-fBC">
                                                 <rect key="frame" x="114.5" y="165" width="147" height="36"/>

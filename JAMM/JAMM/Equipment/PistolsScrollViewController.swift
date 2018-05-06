@@ -10,6 +10,8 @@ import UIKit
 
 class PistolsScrollViewController: UIViewController {
     
+    let impact = UIImpactFeedbackGenerator(style: .heavy)    //Allows for a vibration when button is clicked
+    
     func  setupbuttons(x: UIButton){
         x.layer.borderColor = UIColor.gray.cgColor
         x.layer.borderWidth = 0.2
@@ -35,6 +37,11 @@ class PistolsScrollViewController: UIViewController {
         setupbuttons(x: revolve)
         setupbuttons(x: silence)
     }
+    
+    @IBAction func basicButtonPressed(_ sender: Any) {impact.impactOccurred()}
+    @IBAction func handButtonPressed(_ sender: Any) {impact.impactOccurred()}
+    @IBAction func revolveButtonPressed(_ sender: Any) {impact.impactOccurred()}
+    @IBAction func silenceButtonPressed(_ sender: Any) {impact.impactOccurred()}
     
     @IBOutlet weak var basic: UIButton!
     @IBOutlet weak var hand: UIButton!

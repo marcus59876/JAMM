@@ -17,6 +17,7 @@
 		F53C48B5209D83630074F24A /* AssaultRiflesScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53C48B4209D83630074F24A /* AssaultRiflesScrollViewController.swift */; };
 		F53C48B8209D88260074F24A /* WeaponCompareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53C48B7209D88260074F24A /* WeaponCompareViewController.swift */; };
 		F53C48BB209D890B0074F24A /* JumpRouletteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53C48BA209D890B0074F24A /* JumpRouletteViewController.swift */; };
+		F53C48BD209EB9F40074F24A /* WeaponClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53C48BC209EB9F40074F24A /* WeaponClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		F53C48B4209D83630074F24A /* AssaultRiflesScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssaultRiflesScrollViewController.swift; sourceTree = "<group>"; };
 		F53C48B7209D88260074F24A /* WeaponCompareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponCompareViewController.swift; sourceTree = "<group>"; };
 		F53C48BA209D890B0074F24A /* JumpRouletteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumpRouletteViewController.swift; sourceTree = "<group>"; };
+		F53C48BC209EB9F40074F24A /* WeaponClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			children = (
 				F53C48B1209D7DED0074F24A /* Equipment_lvl_1_ViewController.swift */,
 				F53C48B4209D83630074F24A /* AssaultRiflesScrollViewController.swift */,
+				F53C48BC209EB9F40074F24A /* WeaponClass.swift */,
 			);
 			path = Equipment;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				F53C489E209D709A0074F24A /* AppDelegate.swift in Sources */,
 				F53C48B8209D88260074F24A /* WeaponCompareViewController.swift in Sources */,
 				F53C48B5209D83630074F24A /* AssaultRiflesScrollViewController.swift in Sources */,
+				F53C48BD209EB9F40074F24A /* WeaponClass.swift in Sources */,
 				F53C48B2209D7DED0074F24A /* Equipment_lvl_1_ViewController.swift in Sources */,
 				F53C48BB209D890B0074F24A /* JumpRouletteViewController.swift in Sources */,
 				F53C48B0209D74E20074F24A /* UIButtonExtension.swift in Sources */,

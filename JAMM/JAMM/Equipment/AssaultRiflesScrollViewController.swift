@@ -10,6 +10,8 @@ import UIKit
 
 class AssaultRiflesScrollViewController: UIViewController {
     
+    let impact = UIImpactFeedbackGenerator(style: .heavy)    //Allows for a vibration when button is clicked
+    
     func  setupbuttons(x: UIButton){
         x.layer.borderColor = UIColor.gray.cgColor
         x.layer.borderWidth = 0.2
@@ -35,11 +37,13 @@ class AssaultRiflesScrollViewController: UIViewController {
         setupbuttons(x: Scoped)
         setupbuttons(x: Scar)
     }
+    
+    @IBAction func M16ButtonPressed(_ sender: Any) {impact.impactOccurred()}
+    @IBAction func BurstButtonPressed(_ sender: Any) {impact.impactOccurred()}
+    @IBAction func ScopedButtonPressed(_ sender: Any) {impact.impactOccurred()}
+    @IBAction func ScarButtonPressed(_ sender: Any) {impact.impactOccurred()}
     @IBOutlet weak var M16: UIButton!
-    
     @IBOutlet weak var Burst: UIButton!
-    
     @IBOutlet weak var Scoped: UIButton!
-    
     @IBOutlet weak var Scar: UIButton!
 }

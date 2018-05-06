@@ -1005,6 +1005,9 @@
                                                     <constraint firstAttribute="height" constant="201" id="043-6N-ltk"/>
                                                 </constraints>
                                                 <state key="normal" image="ar_m16"/>
+                                                <connections>
+                                                    <action selector="M16ButtonPressed:" destination="ys1-Hw-DCK" eventType="touchUpInside" id="kyN-vM-C0b"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p0J-9t-Dmn">
                                                 <rect key="frame" x="0.0" y="201" width="375" height="201"/>
@@ -1012,6 +1015,9 @@
                                                     <constraint firstAttribute="height" constant="201" id="mwb-Cd-IU5"/>
                                                 </constraints>
                                                 <state key="normal" image="ar_burst"/>
+                                                <connections>
+                                                    <action selector="BurstButtonPressed:" destination="ys1-Hw-DCK" eventType="touchUpInside" id="ev0-8a-bqb"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nqi-f0-Dkv">
                                                 <rect key="frame" x="0.0" y="402" width="375" height="201"/>
@@ -1019,6 +1025,9 @@
                                                     <constraint firstAttribute="height" constant="201" id="Uho-MZ-qYt"/>
                                                 </constraints>
                                                 <state key="normal" image="ar_scoped"/>
+                                                <connections>
+                                                    <action selector="ScopedButtonPressed:" destination="ys1-Hw-DCK" eventType="touchUpInside" id="Dbr-yV-KKF"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5lb-Al-zfs">
                                                 <rect key="frame" x="0.0" y="603" width="375" height="201"/>
@@ -1026,6 +1035,9 @@
                                                     <constraint firstAttribute="height" constant="201" id="nTw-kt-1dy"/>
                                                 </constraints>
                                                 <state key="normal" image="ar_scar"/>
+                                                <connections>
+                                                    <action selector="ScarButtonPressed:" destination="ys1-Hw-DCK" eventType="touchUpInside" id="DCQ-Fg-ZUf"/>
+                                                </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="M16" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wc6-sp-OFX">
                                                 <rect key="frame" x="159.5" y="165" width="57.5" height="36"/>

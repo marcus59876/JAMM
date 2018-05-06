@@ -883,12 +883,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sTr-sU-zOe">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sTr-sU-zOe">
                                 <rect key="frame" x="0.0" y="64" width="375" height="201"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="201" id="Qba-Ah-vDT"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" image="sg_pump"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pzp-sU-RV8">
                                 <rect key="frame" x="0.0" y="265" width="375" height="201"/>
@@ -1107,6 +1107,7 @@
         <image name="menu_lines" width="25" height="25"/>
         <image name="navbardots" width="25" height="25"/>
         <image name="parachutist" width="25" height="25"/>
+        <image name="sg_pump" width="333" height="333"/>
         <image name="share" width="25" height="25"/>
     </resources>
     <inferredMetricsTieBreakers>

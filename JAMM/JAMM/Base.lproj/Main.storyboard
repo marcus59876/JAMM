@@ -262,9 +262,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Niu-56-OLr"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Jump Roulette" id="7oS-sP-1U3">
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="AyJ-iu-l0s"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Jump Roulette" id="7oS-sP-1U3"/>
                     <connections>
                         <outlet property="Map" destination="CCj-hc-ucC" id="CXq-AO-HKl"/>
                     </connections>
@@ -280,14 +278,14 @@
                     <view key="view" contentMode="scaleToFill" id="9dL-mC-kBp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.88235294119999996" green="0.74509803919999995" blue="0.90588235289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="DET-0K-TYk"/>
                     </view>
                     <navigationItem key="navigationItem" title="Weapon Compare" id="2Yv-oe-MRG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="55q-Jt-1qk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2191" y="554"/>
+            <point key="canvasLocation" x="2189.5999999999999" y="553.67316341829087"/>
         </scene>
         <!--Equipment-->
         <scene sceneID="nXv-vy-R2x">
@@ -1058,6 +1056,7 @@
                                                 <state key="normal" image="ar_m16"/>
                                                 <connections>
                                                     <action selector="M16ButtonPressed:" destination="ys1-Hw-DCK" eventType="touchUpInside" id="kyN-vM-C0b"/>
+                                                    <segue destination="wtH-yB-6BN" kind="show" id="QIK-i6-Xab"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p0J-9t-Dmn">
@@ -1171,7 +1170,49 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cc0-zM-Plw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2242" y="-1650"/>
+            <point key="canvasLocation" x="-202" y="-1118"/>
+        </scene>
+        <!--M16-->
+        <scene sceneID="f3G-xe-5Y5">
+            <objects>
+                <viewController id="wtH-yB-6BN" customClass="M16ViewController" customModule="JAMM" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1ty-Y9-W6z">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ar_m16" translatesAutoresizingMaskIntoConstraints="NO" id="oMZ-jg-fpS">
+                                <rect key="frame" x="0.0" y="64" width="375" height="302"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="302" id="r60-qH-BaV"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OEH-nU-J5h">
+                                <rect key="frame" x="67" y="615" width="240" height="44"/>
+                                <color key="backgroundColor" red="0.50588235290000005" green="0.78039215689999997" blue="0.51764705879999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="GJv-ad-Yls"/>
+                                </constraints>
+                                <state key="normal" title="Compare">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.88235294119999996" green="0.74509803919999995" blue="0.90588235289999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="oMZ-jg-fpS" firstAttribute="top" secondItem="8DN-ov-ZMh" secondAttribute="top" id="E6y-LK-6MZ"/>
+                            <constraint firstItem="oMZ-jg-fpS" firstAttribute="leading" secondItem="8DN-ov-ZMh" secondAttribute="leading" id="Epn-ar-kxK"/>
+                            <constraint firstItem="OEH-nU-J5h" firstAttribute="leading" secondItem="8DN-ov-ZMh" secondAttribute="leading" constant="67" id="OW3-gX-U43"/>
+                            <constraint firstItem="8DN-ov-ZMh" firstAttribute="bottom" secondItem="OEH-nU-J5h" secondAttribute="bottom" constant="8" id="VcQ-nh-NQY"/>
+                            <constraint firstItem="8DN-ov-ZMh" firstAttribute="trailing" secondItem="OEH-nU-J5h" secondAttribute="trailing" constant="68" id="iX4-m6-lgV"/>
+                            <constraint firstItem="8DN-ov-ZMh" firstAttribute="trailing" secondItem="oMZ-jg-fpS" secondAttribute="trailing" id="uUb-Bi-qv2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="8DN-ov-ZMh"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="M16" id="P4O-wE-WNo"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iKR-PV-QwH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="599" y="-1257"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="WeF-dc-iME">

@@ -54,6 +54,7 @@ class Equipment_lvl_1_ViewController: UIViewController {
     @IBAction func MachineGunButtonPressed(_ sender: Any) {impact.impactOccurred()}
     @IBAction func PistolButtonPressed(_ sender: Any) {impact.impactOccurred()}
     @IBAction func ExplosiveButtonPressed(_ sender: Any) {impact.impactOccurred()}
+    
     @IBOutlet weak var AssaultRifleButton: UIButton!
     @IBOutlet weak var ShotgunButton: UIButton!
     @IBOutlet weak var SniperButton: UIButton!
